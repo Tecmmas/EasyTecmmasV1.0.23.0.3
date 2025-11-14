@@ -1,383 +1,2584 @@
-<?php //004fb
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPpNaK5+TlAYGME75V0k0yO0jfYMvz0C9/BMupeaKuJE5x44wXoz4bj/75S6g2j9vo8uBdpJA
-TR+uRW/PD9hlTZd4QuNZkDU//48Cip2fqYwVlOwT4MBBXhrInseBxk3Ypw3/1US8JJl6/TvBhtV4
-y87s+nD/21CzfBsVI3Ik56F6Ys+PuB+3FX0DZT4AeapWWpsBe04ce4uBzIC2ZkoP1QY9oImrFQ4w
-AZ+Rq7ZEjH6crhMIjMoqXQAZZsJ34+2aZH++6RPra3bKz2WRLh/GdMCQIs5hQsXqyxwMiMy6geBR
-cmHf/yeUz19YsZIVJq+H262iqWhNSBIlR5k1Fg7M4FGGPdOVZ6fZXQnxWLpgKt4rFknWbtZjCl/9
-rWr27rBzMuWPHH31gBHY9ivoZ1iVyT4zLV5FaIbq8POPQbGMaC73wX3McgaMUa98riIMC4cxKSlV
-+GKlccU/jqoF7hct05t9aJ9xfNppOuIQmX4hxjKjPVN0pz1hAe8Mq8+GB/eb7fMkJuZnvixr3hCJ
-3vgOM940dGFB+VqeRW6EjXEpB2QamSPTH6ggkcJxsd4DcDNn2RzQmAcJNa1IwfccbtQDsmNknGBi
-k1nR7AOxJWwZTHC60KLyXLXrGZNb0Ag8v0DqQYId9qSnz1ei4eq2LVjSPZtduBBhHxiIfVyXqYXE
-AaXaE7Avf3QljyXiBe/qhMWjU9cjTOpu1OVhNSsr1WKXl6XZur8l8BBCIV2wb0a7ZEGQ4okfEoKJ
-ELtnScsyLi+narDCPLUOUWzUSBahE2uhM9Spjkgt4cjWVEZHNvInzq/DJgvtE8AtmkeAZA52L18L
-1Ee2EkldJS+YN1LWl6kOzLPAHY02fPHFjAVe/ljqTTI8IwuggbIEASB/pWHVIysumk9o02y8ClG0
-m9fUjhiPHFhQXW/8GgpqT0xr3LeindkbgUbgbxQfYXQGgB1dR9DdLc0rCvlbI7cuZjWev5rTb4yP
-xgyKzexPUlz4pmznnquFattVmEt+4abeW7E1TZZI8i2N5rgzzIJ/6x+KVO2vFvckorwIhOniwq2D
-SQ0HFrzSjTrYcnYKzTQEwOpJr4TiEq7uYXfnzEKtzD2f2A+EvcEpnBGbNRkx4R8sgcSzjv+vI6Jm
-C+cGKpxdtok/jvW104ugpSDxyd9hzvJF7kRHbQmwKsJmWklyqULZUbBV7N2FSQK1nWytNXNA+4UM
-Ftctdaz7pTpE0s+FNvflgsyX4h+Kq+i22735/3S7VASwZwpsECOTwsD0fOPSNJ/PyteEtBpLFb2Q
-upaiAzhzX8ozKZg48uiWDEJ2vlZvWxY6C6boxfY/vDxQc3vS/xhOhr2tAYCk8PJEhlPZy2x9MNhk
-N0lz874cg07Vc08JFxXLfILzAQJp05Abgzqo1BqGjiOMAOdg9RWq5ugHjA9S8bMCCFUNE6vtZsRV
-kBbYby2Rn2grny26FHL2pvToHzBPKGytFQQH8Ffz9yOIknKlUVeHzI5cQGT+dmFDmO2zcV9/kC4F
-P0eekMLxPQpRsEJ01Raaw0NATfwhKE+HjG+1pXWwJT2So6Z2JC4liHkLYdZIltjMGJCqG/jUsBOW
-Bj3/Lxy+a58JnbW97Lz7z4D1wJ8esaoJ59vXF+uUHQ434dsnn+iDTCOUQoUYANa0AeicbQeiiJ/G
-3TxYAubf3MAEoJ5ib3XxmF5QogZgBTuYtz73QLzfTaoLYgVV1QFnGa3iQQo2QZ5IDTZDU2edTckk
-my2UViGkyyfLSAehQd+xurnBfCgX5UD8w3UFYiLdkAFMMyaLedQy625YrQQPlmijkAJcrvLR0kwn
-D5U8ZHZei5EDxufgzpCmFRWEy1wW9vlB3uOUnhPDC4DnF+UMRe8xGd39N3FG/29GIjNKzDHZt3Jg
-MCNhuzKSQO+JEE2embXbofQkzH/JWLXMPAooNvcuaCcQ7p6g07kQJiY1fA9CPfLMDWJeVjwQ16WA
-+DAdj8kFbhRhwdmIsvOJUjwsRKgwIhN8C75L7ZiQE4uCsdbr/PTUYRiv/gS2d81gM4zsJPsNpqNO
-sK/KBL8HbhqXZv/cKWPNh1puXAOJ5AFx2U2SRBnWowmt1gIYYHaGT3SsI7Y+mJSE6FczAMcnG2RS
-zBvOjEDxFk12TNqfvecD1fDW3zn1BN/Cp6M5KXEy4E5ReKwPkDDuPTPnoS4gvQ5n0WoVwS+BKxKK
-4bQS4Y9PNRP4GQPz4gI+0usJKSsTX7AZlRctHDK8Q78TDyIMf1UTsExD1CK0pN89JYoKXoaSvsRY
-SLSYBHocfvPGRKOo6jJPivm+nIdHOuBDwsAgdHo4cwJcLCEqW9D14KepMdMapiLToIG7mxKbTeB+
-giAYLG9PsqCSDQzu3/yVpo7cQUPkU4SvobT79Xt26KAul0vt7XFKGxwqWFtS2r/HEWXPzJPn98WN
-/oQyEYKGRN5hLUouYxV+ucigE/Ofy6tfVCTO67F/ez/Q5/waiiC+SY/RNfP7glaFgiNiDek+vzMf
-ksrC6b/g+L8MhecxeEMyXcCne2D2uy4H8PQYw4WDmMVxtgdNddlYD5LqBHBDfDk5AkGsmTq+URfP
-3zmr/JIFWBtu7iNKB0G9riE89FGtSGz94fcBE9mbhDMOWnWLJxkeBETZbDMyXogNSJ3PWDfu37hu
-PLekHvX0hGiYt6Srm+dzRx8Lv4UFjZAjsTZKXPQ3xNh649geYjJWkeSgCxeGleod0DnCLH8k0nBz
-TzUv1QDORIx4XqJ/b5L/c8LL6LWkBkoIW0Y4dyTFdOZRLmnuGOhB0oc9G92uIw+RwSD63Ag91X2X
-f1D94NhqMCffDjQGMdb9H5LjWDYNQHRGGuCTGrqncV2GkVKQp35DO0QNGQc24pD3AYI55NpImvn0
-14eObucnTr+wp1xP3itYk9Sr9vdEmwqE7N575L52RV6CTG+z+VsaB1vMTyMzCIl3ZjwHQD2eGiRO
-iZ0Pjd8JHJI3RtX3Q+jh7h7gxEqJBMv5NV0o9W9dk13j2VfBBsTmawl5IhYAGHIZRI0lgvW4Nl4D
-6zWSvvYkhGFZhX0WdFLxehOevXBvb48S00pJ6e4z3gUXBosqkHPLxzIpcC89LmSbpR1vQ8AfK+A1
-trYtzwZl4g3SeyeJ9R6klFY5pPDXObLBw1OBqJ7sDH2A+48IigwX6QBKiikim91weAn6PkU4kYZG
-ymh/mFwCx79ju2PqGijlzz8LRUYwWEh39j61JiDzaKRpxwAB/dZfmC1MCrld8+i0CUKRv9DybwXE
-mAJCJ3iPjXlUUIKZxCe9I37foUKgqOuXbcPreCUi2DTV3wO/mbmlACXI46FeQdWJFS3yNTH1UI2J
-UYe1DwmUCl1LFkB2bzJUPk5kpK84wwW6zOgepmjt5gkMxbkweGgVpRmljGk7d52jQOvrSeEqIP/c
-9/ITPmlhiy73QJWvOXB3TCjtFr7mt19oaOXW6GFG9oy6pa6VypN0Ui6330l9Tltk18B+OANlZrW3
-aUT7ur0vWttFMBiHvF0lHEWjUEmAmXLMLUJfG7fYJf99DO03Ly3FYt5KmUGldKmsXpMKLPviSAmo
-IQ57X1mc4kcMQU2JJ1nhQOP+bYg8/YauZZwIdVLDDnJDpbcxV8S26EJA1Yg9Znq7ZKxfxtx70vsM
-M5S3wuaUruyHrQ011xDdGzZszgVt1o41OP9n7p+ti6ZRmm5d0PLpI9af8bE3xaZsjjh1EA0GaOBM
-vNDxOb7HVuUkv7oLZbTJkqsLQbhNf6G3qbdYbB0HZymU4RtnwPUMJh20Pz03w7+sgK1+dfPmxJun
-oJSkTZb3juS8eYpuSHn4w3/3fIWe5dpu5/Ze9bauzPLRW18dNR8ln7ks73OR909f3lzGq5B8WLZl
-KeN1m6EYgnwlloMPfSbpM5FiUlE8Inx+h4XbxmpvlUNB4FRWr+3Gh4XvIvfYx86nC4OitN94oXvB
-YfVBN3hlGGGsPmHfNfZTVOtZzBMom/MesHWKwY99H7byPzAtwtoOnKPAy7wH7cKKGUiFBPdH64mj
-735aSjVQqUu/1xYWjw5GASdcrIc1eV+IxTnE0tOx8k2vF//Xc2AhAKjhQTJDjW48zf8j6YL8xlNx
-nrRa0h5jW0E1JjUv4ZZHE1ZeTp0pqI9xHqLHzP/X96C0SF4bj/8aIXOuneC1+MuA0qjoPuPnQsk6
-mbcG6AdhkbPaTC+KUl92p6iitKK/62QWml3hJvTUdi48n3/o28LE1bpJbALb/YZNw9cgeW7xa0XE
-NrsZtN50BzKa0YZmZ1Hjf+1jNtIWmcw7W/yEVVgUqjtlK3h1B1xC93fliL8WdpksxV/ccsbyJqMR
-XYcm8+jYN+0G5jmFCtb3/r1140xFr1E4qdg8QKN2DlnI1eA0ThtVnhFu3HFo+3E6ECCq/SBCrKyb
-N1Z11p/UkwJmLwFmvo/lbdGmEditBUyN4F32slQp16iLITNzkt0lBoFoVRCKEfFwh4zcFLOubB8q
-UmPSXHn1mJReBpLBS+i7rqAehe/IAjlbb8v+UOY1rC1qXPUtKdxsAka3U8WOUvKvItv1X2pgmKjm
-kC1NT/jZp8SKU/mLCGi/zHWCfsoTjhJ8kFZXvdJAWx5A4cuE/MflsOjOmfO11RzxWvxa5puKE7tM
-K+/BPYB8FOaFRx+akh4icVoFHZa7a/FpQE8aiFEY4/gG6i/4aPQazO6lwKTh2EKm8+/xG69bNrix
-XPIgyx5iHfhiqk1padp0ouj5IAVRCUMKeMuUsZNHV8cnT9swBxceO3TxmSNSuvobBiU4gdzw5hlP
-OIw9YJPzwp5MpJ6rRJqt/qxTsIvXbE8n3ucJCSLsnCmJP97rNYbXh0cDoCsABWC3sJItwyP8AfE3
-KgieqoKaNo0blhdQHTkdPUS2Zk7PYnXjIfi9cEGrKHUj89x/l2cpCCMcGoUchoE6FSIlndeRB2bV
-w4MvbYamsFScVQu4xZQwbZB4RM/MrCs9SZ9iyEe/+K00yD20BvfA6RX7RVvhgGwL10BNTCGltIpV
-8JOB0qYMbV4EVcFsqTTuvtth3KtWU5BTTo6dmC5wAy5bZfFS5jLYO3eRKAtieX+XEJW/z71feOXb
-rqEtS1GNUVsQC/HKKoOHX5mwbQRuDwdHKHELVBS3FfnC2WAJC1FDe4s9oLZ/D35gAhuhLq2PJYeG
-Q+PYOT+pKNxiO+7H+l92ANWbM4NsE/EHcyXokrp0kwL9SA5Bx7uI2BI20DUWJrYOpQDOtep+lTua
-A/SkOmbxCnXqxNNZuPsFUOlo0dchKD/l1ulfewpbmFblS/kIY0u6XYoXviQRmR43a7P6vPIpFqfn
-vddlNFghN7r0LbqvogkBRO/gT8CaazjZHAEjKsZ2DwvN3Z05bQ3rEcp5jgSWIsK2T+z5/t/ov3i0
-TKidFioJGzakYpwXh++tD4RnquKL319/ps4m622oznX1+fkXWzuMeI0N746OdDWQbGYIEKepAmCd
-OyzVx5PV506qUSH2nSzNGFzsXh8/zaxEsc/Ly7jZMe7IruCl+9wqytj/RrTqyQ8MsXNlAyp5AWzM
-st1ocsLclZHC4mKQT6ue53Lmva7x1Kua6KZ4FNH6kl4biZaBbWsvBFT/iU4NyJZegXR22Cj/1cVf
-pq5qjJjExUfoMQSsHVLx6tFXbTTVgRRfOUUoUKpu03q55BvZ/O8Fk3vyh+MRsT4njKdGjNVC1xEa
-Af8NcJ98fKPXs2V2ZA2zXsfxa8QxBmH7nB4owFUHeOHaWLPIcOSToRJsddUc1Mz769Ia2UnpnXwF
-NaSc4f7TwvV0Tm4cROqzcUbVzAhfHiu0sp8SMMhwXXPo25B1nfiKFLeRgKu8zWyfj07dTCozLaSj
-Bjb9uZQ3EKbzQdkeRkVRnbjfLbR6VEx+8gmaHexaSJXjQgz76GEWSYAo17x3HvYXU+mjLrOMj2fa
-mlpqn8PoycKS+bhe0pzwDJ66Bb3DbZ1QqBSYRuJIG2tPuk+k8z4lv/+b7tU3TisNsJSEmd1IYcE7
-kAiPv5YnhdC6eGVadhVDlD9wP3Ii6QdQsrJsGiYZMcV9s8dTaUWRC4C++k9FyI6amJb3A74NlID3
-vRzYFPwKwOdqm/+UWQmgvA/qAG1skR4SoFmPEjnSYybmI7oJ4CEvabU7/F42LN0F0GkMhPoYIcgK
-lgZ79XST78XbFmX2zzFyfnMx1Mk470e1h5rkqxyYvrTl+ITARlQlweGaRy26X02xz8LdPHZ/BfuE
-zASByFeOCfoxEGucHZOsShFykeoc+BfJBNOQeGUNE3A5gjtxShQklgrrirmZELicZj4fAPEODrfV
-o5wN10KTlKT6Vctt7bMIO1f1rYyzckmdj3yObjLC0joeck8Ufh/IYnDdUkNahmhnZtJWqMfCulEU
-kOglN33IPf0TnqDqgKGE48E7xPCPAM5Fff4jlNkY1FYlCw9FphO2XUMxoJEcU8b4oV/DGo2MmUpp
-hPb26egnYVLHFbSBIIySi5mtfUqs95N6xHWQkwtexon1UmdOwsBIo3geY/FqXPS/cedOH/Ap3Ba7
-ypNE54xUSaUb8BLRHHlelcVFZ+Og6Tz8szUZlgjbr5PlaWlXMtU2R53SN9JvIYEm0ebc3Utm03Ia
-MJbqd0J4AtSnw+/lurbDSBoJnCLUACZM8LAB+MLEB11qK6WoBHtzkkkpOh1Ueu/PGAYgx+oHovxm
-bfEL6lBQhkrEwOkZCo0LlLbi0i4lf+WSmqLUAfLsqt092r+sOoWeiKtUWVXdVYGXG73F3XCVux8p
-tA+Bk5HUW/RjwfJna8AmhLQpsEtIMu6u0hef2QrXmecofy4vWJIM1doXTFSoObvTAgDrIpjlLfRn
-BiJiGYfTw7L7EOUg7WpGzMzs6py55TiIKufkHrw6h1/ufqVpPn4tLb7L6A1qOV3ofxeiur5S9add
-9srdVT1RV7O+iZf7UK64QzTyvy1yyOqDjmWtD91bmTpUzV7iURXoUKaKZleEUdU0W3FPkuolc0/B
-plCkkKaWEPCZysx/WYZkRlRDQ9YpAntG73Hjcrs06oP2wshlq1h59OPCMlQkDajECmJifuNpYtOF
-pAERwNKPJf8ds7IaB7l934M44v6ExosYCzquFjcjV4PSM41Vbas/jVa9A01oKBqrDwSNyJyWZj4P
-EyQ757zsHxXi7GJWOVNstpF/Risf92UJ1j0MkS98O0x1ga78TED5/cSk0amvPzp0wVH8sTrAEgXx
-7oKVRW6aMMA44KXl3dcUr6a/6xcYbRHGlRiVqLRCOy6patnlNnJyOCdzjbqpnQdORHJZDHQ/Uw5g
-hHvxt4nfbwg3o0cuS/P6fJ0ixiIzbRdOZ8gzjnuXhIm4rHOejBcjZmVRu5kTPrgXoPdq7eASIZlW
-vxP7FPyozLd/p2cDcfhShhZwob2TniEUA98o933Z6YS1Bu0Une1QbMwqe3RlitWz9vgePKrpDGDi
-PuqEtnnt6LG6fPfnnPRcmRfWoKn7HQP2Ra++xC3I5cmxn1CtDs6jenSNBImjKWdA6b2LPlwf/e7M
-0dYxnmovfQsVAC8UdYbY6OLS2DL8VNP7GVmzCy5rGGWvw1CGj3aFD5DC/sLamf/qq0JxIETwt5Uz
-UhDDnk/FFt9bG12xxArbXhtvhbf5RNOhcavCPznOCMlp6ZRp08UgK52BR4jyjeuD6DFHlQ/KI1kn
-bOuwNXQhXdJ/GHkZHrYvV/afWSP664jpuq1gLH7QdFBjFbNgW6U/suXQ5xOq/UbLGdjTWiYPvfA5
-dtGB3s17IMUZc9p7vdt98y7JKw1aCPK7wMzZqHlsroSOUol0bsNvBTjRWq87iG81IErL5JqYGnHa
-6upmljDh37FXRTAfs/ihJebcUst5TUbTgvCMQuGj4vOr28hvJ+bnXotn4oMDA3rqEf3Znqkf2jIi
-aBs2tsOYvM3jSf/PWW6XEES/YEPHZcF8S4niM58G/PAccXHDuiMIutHZa17wht847XWwekpVFIwo
-uNXlgS03H8E4L5NbnQoB0M9kCVFoyul2+PHj0sZwJOTybjeiuce0mRT8WhvkdvxtzwJ5X2Vgb7SB
-QWkXCjRv7D6cweeWf0akrwCVIx8Ln+ZvCc2+8qQyigjVHJ1JBiZ4ywNDtLgLmvQE9EU2U9+2zmSc
-COXd2H21wI1TWNKji3vZsD5tT6GLes/MRwJHlKE483itctUWztWkVlT4lC/He6ZF6VOeGGmf26LS
-ywHiZj83/+iX3sE1LYf2rrNYTF/wr3Gw9BfD3HOeP2KI5HRf9OvF3pdF75L8Tl/urIxbUVGZZMEC
-Y/QY82czjnEwR1mVcASXfK/8TlBx6dT8nNiO3OLsny30+7s18MU2zoPO25OHxRoQ1AJ6nDcKxw4X
-Z5nOFnn6XPzFhBaeKjlP9Ni0i1yakZOZScgLNbHAHiRkPUhYzd1H7LhzvwzhK+6oa4e72reXYkTa
-mKDfcWzANH0Iz4zKkvnIKLMbynsQo2dmSc11Z37eQPTK//+5RUbUowp5jiBCdthUi52wJNWD3mZa
-QfMomTtnqhP/g6lFZKDQcJxP9Zb6aK++XoB4aMgImG8mHWImR6dT/3RrfQUTXL/mUGThjUD6VYwl
-VUllKMcWV6HC/3y4GbtO4OntCswwHG2Qq/IA3olo077HwItQZxX/ByhEO0ExXK5mugrgtisUxPzH
-50g60QtTnOKHJH/CSfTL1CiluKjkbmHJrWS2l7ebpuIc+6i721rFxVpIW1ed9JW7blgKk9gFJhni
-Zriu/sgpizvCdC8r/x1roN1K2MzdNuHwKbNs0RH5jEXHLJtiIIuJYAVoZwnLckhHuKHQ1g58sg8X
-73ujAYP4s4jqcRP0SAFts9Vpj30YXklslpkDtOZ64LurDGpR4nVJAxgQKoiv7asHytErLmRZrrkO
-Y4Xj/cmvyY8dn8/oNDKRUeDEDC/j5HEizKA5LrkoN9dFVfl2NXUclFPYgLFOFsYFB7yRsaXirDPW
-bvbpJiuAFrkH3cxQ2I8Wy5SRzweKd+TyLdfI2c2+J0cYtnHaGH942KJg3grwS3C51iwotO7U12Q1
-gKMeX43SnzDH4e+nq7SnnNthCbhfUsMQKtHz9tL+MG0V5JW1jYJ3JKCFw+BaIjnbsrcScNjyd7vM
-ZF9oCApvV5mMCRk/q4U4RivW8G6eYdp58Tl9deuBf5rpA2gKhkmURKuwxeo3AK0loM3TJwP8Sbga
-bnUmoo14qJelTImdmcCWdcWzZVT32440uZCnSMJJMbL6T7rVdmQfWXu/dPa5O2Pcs35Tz1Z4+XUh
-Tg9/jZUIlE4zkV/rIh8neqzj1QiXmSRPiz93NZ+qNWCN90QltXzrOSNKgocZUGv4Wzf3e16Ysu15
-RCyssxbNgdgZNlTaH6JCMB6YP2xtwLAq4kAq7aNikoXo/TcUKXY/IUOXEP3yJ4YkO+wQ1YyXM5jY
-Wqok8AovKy3St5X6+0/4WHORJAUkRHMFbXaLtgAmllKcEdPU7VyJ2CViMfMDkSGkl5JNbnfOouje
-hlXrCWgimgWc6CHYz3Z3sxnmPbJOGIf/KZj+SKjyuBkEv/LGCV/Gfy8mlUe4rCbRclzMoQZ774Bh
-e/VFd831FosddUc9vEhOl2dVyvb9bPGOHmACeqUDB6+fBMYWbZwMlXvlHSyg5mGY6Jx5JsPnMvV4
-/CG0/os8KwbZFhC4JYCU2tLfA1HhaQVHlRWQUx6HgCsZ3/yHLOBOoXpfYGcrr3/toZ00Y5Lavojc
-jXRmzMpfeP1ogtPsnO9VKikg5VeLnifsU6+5yIBMc+zRixSR3UfBnCBNx7PLG1L+VLFiLHxeVcqI
-Fg/XGykrjkvx2kT/wqKSmFXNiuJ085mtdlOfL1Xoy32xxR7eHCVk4zELaLEYZmZTObMbUFBcnezf
-WIXZY8y93VWOC6PSFWkKGWNwbjk8IpUopVZ9xBLJH6kPzzFACGgUjFbLHQ0Z+XoZsR28hBGG3UDb
-wHMgDSmP/EWqGBgXmc27M4JbtFEi0SHXBaSp3Kdim05mR4XWpODJWkWWL9+ZMzwqSRhQVLSn60GI
-szcMAavqgxmK4U79b3FZD5S0DN+kFg35NEy9QNDZLfnZuoNRqWCW370RMfTx1xz4R5AfH82mT2Kj
-7pNa870Raob0C4DRJ9//rWeBHEGtEfsLoiZrsPDjh87GB8vPaho21kEPrxGaLYlbBwXgoQcjqRq+
-Q073kF+xNgY96CV1Zyoe/SvslYMijOUWqcDxqFvnMVacZUK7yss++WQikJZbfjNWCbB+M34GJ8XJ
-4/chDm97lkssJg+xVcv766hsvMV5/PvPWDD+RCUmTCGilG5sEDVb3DKDyEzUmNwrXgS7aWiagMmG
-/TsTcXJbLEuSeQXJ5FxV1dwNCe2eppUviJVrhTM3uRCLqUq/WSnRfPeoTl+HRlVVfD2PVPuFBX5D
-oKAARzA/f/iG1PffUasyo6Va7RxLhbre+U5KSX4VxwMIS0y32YoPFXUYr8ZDqyOISxQpqOgn8mQX
-mZX3xAlRJuxNYbAB4tTzKW0inpUg6iVMLFM84fqBKR8gLAg7rkWS/eO53dozB7VDvzc6dgSM7XnZ
-926J1QEnOiXSZWC5NMnXTQsqOFz5c2oJmHDdnQW+um5RAl524uwjB9kXZxB9J78Q9o6jihTUB0U1
-j+AnUsQw3Xl+aDrDi3V8PRJBb6eb49shmfEI71OPP5dLFOsHb+Ok//byYWsbmAHO1f1qQ4mEHviG
-xICsAFun6M8BvpGu2Q5JBQO39Bngoee2j9roC7zOG8zib4QppD2okJ9fIKtp7r6o2pVLjbq9CkQx
-e84uNGodxcjLKnwAWw0/5j87LvoEUOvtFhc53etsLJvmgX/GWXRA4aqvA27DDHGMp34vSvfyPL/Z
-v33ywY100PCmT31rHjicxEHPnD1MLsWEocjFhfGu33kPTCwXT05BhJ+FYkJvmIqM9qzypiEXSvUn
-3wcEb8qTky3Bt307GkRoCf2p6XmizHhZsb0/SwKYqvgZmS++wviGFWn1RWBafN5WsP31V5MwQiYc
-K4+GzZFnmb+f2oHTxgXs32WdYBuVXJ+5TbSUyJyvMuXrWLl2AmPOjxcqiSqwvcih9SrWtmCFPxmI
-Sl4u1dbVM7NOFOIrNRjHXhgTX5eoylptUOLFB2n7NspL9rgXLbfclITenYvZ52OpXCkYYBCNvKkX
-LZjD586sgUBpQn1jBoOamjcPJLu67teKVC5JawRavaKXZ6NAX+d5nTXJHliu+8MNu7FfspZg5FlK
-bMOQTYEF+v56mY5DAtZsM66H2Gptfdz167Cl1DtnsGobU2Dao9/I3MzMUmllj5bw0gj0V4IL+jwQ
-StvefHfUZinYbErE+JzbIkIdXJlwuGdk1tjOfjADeZa7CejBI3IkcOl7PTEf02PCoSlxexmMm6Mg
-5E+Dtc7nGfeDyPIzwzpGo2G7s3iYfC+ArvOMZH2jWK/+21rAbKhTM0b3pQJt4zQkU7dD6Q4OJzzQ
-zy3dnHhYLS/v4BF9R0tc3/W22gl/fMBY7vn/nzvAeqzu1uUGFKTDcgUFT26KBG2KSKdx5LneN8sH
-izixlDbkJnqmhiDduBo32OtXgg13abwL/7OnPjDvZJkJKdmPK8dchezBfsvlTgisQC5DXGP1fwni
-iCa6fBnCQG/IWrILbQmxCBA4gZyl9eniD3Kkz3Y72EBQpRe9jTsZoJY9Gd2m4SzkSJGkgLWiApFb
-IPc9DX7rwElLRLFH0Y81226OHCQ1+Kp/1jVSlQEr88EMMoxREJ0IzqRTTzMNJfp2/6EfenLY2r5s
-ztV6eR6Z2lJtE4VkqefpwfxFrFZTneATbnSWK6PW2yZV8GgaNN1pG9IYsZV8eglyo5bHJT4d5t5t
-6qwkSBTHjRx75p2KWBcadg3DNuLqHPoTOwyjd969jdWhznbc/2EVymIk3eHF3KMAxuHFM5pZGCXr
-JiuVUpQdo/6HtNxn+4zPC+ZE6sKUaVvVTnVd97CIH+7OFlxWYmeEL1LOXLfaQdC4XiMV72W26pX5
-qVP3ooHU5T0+w1ZS2xEipYuR54raCpxMTY+fJRzI0/XGay41tj5mYq2YfqTK3RuBb3kgMl/BbkU9
-T31AHIhi+t7e2rZLCPcJNvzZE5DGBZUxQjsCdtHLnqBUbHkd/Jrww6sTQ0Zu57Uu3lBDlwXiW6Sk
-Zqa8JWok3Rf7EnaIBu+KJMvdmVr7e0VK+vw97DqHRQYfi5j4AKZUQ5YcOonht7bsDEgUw8yqDp3U
-5TH3DkCPt1Olcr9izXIvjhhcAY0M+twl9pskOYM5hvz9d3JqZ6JgALgVt5twWH4xbM+owisCXgnv
-rmaprPiw10pEJ0W4jxshsduutBmc0FsXdPxBOEN1eSvi82FZMTahfyh+uDCkcrjo9yEjpkXWmjVi
-yqFAtDH7ykSSVkQZTd8H2Xw84ACPndz1/tv8lVpFt4ENJz33NFc6CXoS56a6Ab29fUo8fjqgk1ha
-9aOMc4ak3DYkamMYgk3yXmaJ4QJwq+fqgME0h2tAq3ZQAVOWP8NT/fCei69A8acQgTT/vVFwwAFS
-SSWV/ZqMaMyRIU5Ig04IjKdqT7aLxA5ydijww3Z64Bkg4dfd+CZZyb8QkWypX/routzj0Xnhxwdy
-XT5LG1QpFpKGlslruG0pagjZdhZZR6HsAvFQDWobI0NcXFJEwqJ7i2T9VrvgPNd2qBnoHrEkyW55
-/3FeBCLeRHHY2AWZYxmu4wsYEQvnBJAhKfdrjHd8wHrpBhy40obsCoellCFPtTGU5/98aZ8Ur9IL
-8mom5SnTzQhFESZPCDXBgYSZfdRWj0Uy7ZfEacbsu4wZsoDuZ7hm6cD9uitCZK96CYInC771kpgL
-a5xCkHo9KAfwWEpKJ+1DDgWcnTmeWwo9PSPu2a/Gpj7G+9Bk7N+n1u9GcAirb+XpKTItQCMMy4EV
-nOkwyk86JEUMvI3lJVfQNVjb+gbmCn2VzjFpG5ECrvxkn3wR6tNqKcjiaYGIPGQjlRqb6OoYy7L/
-SGyGWiBZnAxfUBwnT4rUV/vTQqNLeCrE41tvwTUnxIcU1zvlL1FslVzdmhSAnWMcbMrS8b+H6fb0
-zpfERuBukS8r3mqYsjg/QBillYJbvbH7TF855VzilbbGwm2DJRq4b7AfKCU3eON/dLI+ZKQVcD+K
-EhbjOCt4dHDH/w2nh+3NfN5vLii+3IhR086pO0ThTGz/ZORuMITKfaD2PgoQ1r1jLdFCpOBnNxGF
-KAQrmZaD/wCqKXvz/9rUdrLKHbBCo+swBX81Bi8s9IC6tu4Vi9Ayp34G84z5L6Px+UiwJenVf/05
-ilOY+vt8ixrGZmoPO1sk7e3REMDm6/h56dzDpWBvpWVrwwnFrGWhOG81jdOsnph+Xa6Jx3KbIIXD
-uIsYfoPhrLWdBK8bJwD61QSZH3IYGzRDLGMOdzRXc4J4CzDccTZJ+Z4Kr/Lw355EysGwj5ujlFbZ
-ZeTJKaxmPpQmodzVDvj3aw0qrbf6swpYOTep/xiRR49+Z6aIhx2PpXwf4nC02QQn5hw3V7lWR9WA
-GZ8AYWq5V9RF9ADEpDyz2X5BLIy5p/sMg/3IlviJu5+5g9yKSvd7QKs5cz8+QGJfCy4P5o3xVR/s
-DhjBIlDTSZ/NQMe1jG471hdjeMVMasHVsCA7jpM3kazmHniDXkvx7xdDUcG7asC3rzflVtN+CNZH
-jdr1AUTSWXCDVX68neBNmeum0mpB1ILsoz69wO9nOxjQdWzh7PVAJJA8akJpW90T0MoPWIbzG8Ui
-Hsdc+jHbOmVplqv0WYwMrhRd267nqCzVuZsukGHmfoyqCNQ8mtMfxhS/VoYZ8TmwC0T+ctSUfud/
-NPVchDCbjONEVmNTW+xNnG8pLUxxRbSMowuZUuyvESeH72qd4fZ35whbER0Wow7tWuixU1hRZHit
-YsHrvOSTQ+RYSVEcZ7hMm0zVf8f31EGWamYpyZKLo+jK2FfW2FORQ0TfxY9pG6XZCes5kJbchwsk
-FbzK61pnA1yhJNIpTLnb6qwo+yD9HTjFSzhEhHpvbWs0JLpE94cJXPRaQ9FTWx2KIxUt2wCkqTz9
-W39KWGfxUuDf7+kod+kXJyLS62XiLNasbh4DZkIQQLgdTXpIlanDvYQmGU/UrwmOikxtMQkVQ4b7
-2ZDZ2iHGEzmJLyju4ilgBqjdz5fJCDPA5DQxmnd9qmbyhXT9zZ+s+XNPuzMuc8SENH/txIIDqPNK
-S1M1AwrDExab4zoC53PW60mYfOpxlEb6/xwU4v3URrAQpSCUBvxwwyEOHoipU+99ntnlMyQTlglk
-OellQAv+lBrViD4EpcWhtWTs+8DlIdcNAoi9Z728WH0i5kKJgp0vjcvBlJZ5BgvOxvUgcB/grIxp
-6sKznbzNNx1iE/L+8pQl8ytnH7JcmzO7O2Nf5PVdxEZibGF+gYWawANfJCLAzTWcD2kar51l5As4
-c+mm8eOXZ2/tHFueM0fZU4hRJ1kVie2x0RX1knaRcabSVVnnMrnK/xzH/gtW4w5JJTM4Qxqe17MK
-/FYYf/zU3gl8v0qUyPMeQMemp7/AQbaaU8ZcNp+a8x/OEx0tXDIiFxR9UsmvBDcDGA88dsRLt4Zr
-wxBzq6Uc8pEaP7ThFrDjYFYAbqsysDBLsex0x5GCaZHzmByGJN5K31sYiom5MjN2fzpv3Sorz27r
-ZkL8J0AEj5/1YMPkrfz5ZXByS4HLPWQrekIj6VbqwzAwjzQjJnxG4U6+bleYu5aP7y72ycyzLyvm
-8MG1Rehl+gHmGTghIqKzlPlJq+XB2b2fhDsAPheXXBH9Kv8DNnbC0RjVUG2YBAuAIigoTdTYeeL+
-rZvuz+dgSvxTxGOwI704duHJWaP8tST3e4GK1XG9uDhQAEq30XAeSSr3ftzhbJ0Je6LfGBr8tV/D
-MDzwUFdtIfTIaH0pUuPzLSJCiN1c4GwJKu7SpOf+pN5hlArIx0GInF37DlEpJAMU2kje6SprfMDQ
-4oIt7NPOg1zcCNX8DbBJehCx2VFEGTGZjKwvEMc2nTxIVQrbZZeSXOXllREcnJUYtuX8squcEutP
-0s4giLgixjwIKIXMAGy6o9yi0fMadaf8SQ/8G7L9cVl2zHYYfbpVLUcEqoWTZxgyFRDfNQ6N1jz9
-/64zpq579BurIPL7u7wX09J9p6WQiAeXhMoPhOTlyXej+V4KLwRFrJyj77bsWiYg+aMWfzlicBt7
-hNfV95ya7/amJHLsqIn43hD9yvfpuxP0mLKXui5d0+W/ODA4fFzg99/3pzHnTFNljKiC4eXVhyvQ
-iZZNLlLp8O6e4ByWE3lWmsdDwvQ9/EpUL+CrH2tuM547m5xI8vFCpEIDrV529RU17UM1dDnSUmX4
-+MW5WrhKO3vIlO/bTm8/swfNcEW9iNecy6QJBWMEXRiHGNc2TCPTG1a3KjMt+jN4IiGABsLGMUY4
-ZWxRgUX6LBQV9N+RwAxXNHXx2885NSf1wXu+OoUsssK31uXP1jluxQUxK0H/0aZ9q3HjqC1U/kkf
-yNvvEQ4zAfpoM0dqslIXnZCdv4T8mCsUv4du9bvrD50PVeZJ2Ot186mHZ6tki3bCEkculKZ0govp
-SL3XVRS/PZt6v8WS1/KsBlejmicdjo6VINIk3lu8AhPbFLpkkBfHzDCjTArKgdcWKw5CiUqeL+2F
-jmtaD8utpHV9k/yAdr+y3PojczzoBgfF4RZX0smrdxfZuBmSNtZCJxqu53Z7ceE9UhcwkD4Gwxe1
-G8Tak56Rq0lIN+kqb98Me08cD/BnRdsLJHYb9wBf6WmAWIUuS2MpZwXmROZCFpugnja59BJLGOM/
-/tdw1q6HUnFPp7lCnWi3LOnHRvkHURGslSLiyz0JPwUXeAN+BuXI4KyDBusIeZv1cmfJiMCjQXNw
-5qm0T1+YIpP7I7vdyn2OyYBmhyQfYwoCefm1aF5BPUGaVAP1pALTtC5wWszZqTKcymKgAAC7cnTf
-0uszbwCdAJ4U14V4n/PK79WQ2LL7z8MsXPGAfFAsiLfnSXfUZvekktA/XyjcJhoLRuFTSp+dPjwn
-n7Q0DPF8lw7hdFcB/0q1MqadGm9ZXukZj4xXDkU4ZugWk4vuOxpRsY3CeTA+T/iLZpvUAt2/Wvns
-N/FzPsDoifeNZ0iipVWMyojidVQzj0ZTmiG/256Jo9F1y0ooXZftscBDaT78k1bkG6QXToUdH6x9
-xLxNixjHUowHACzSJeMqYVvv/xGtqYMGBZIYMFzZ03jfhz4GRa02M3fYmXeXXk+nvHThuEn6tJIS
-9+InIiY/NIJdn62d1cRCI+qZezgaUqFn4LffyZLMPVfQXEcDCu9J4Ma9IZYkXwwap3f6+xcMXEPM
-nCw5Q2JiPS3xXoOhst1AUb3BuvL9xCUyezg2fv821BAR3IJ02i2MSo8NK8wB6xv0QTE/+/NVPq/h
-ZQaSBMZlwqkab8fwclYRScoiH5VSOjMNZzjX1oDD0Tk8sHK72mIc5LKCM8Qgd24W6Y3ViF1UN/ON
-BOIIL0notwSJzApVmdM4PiSvMpVYQRZjRiBgc+L3qHHVAGCaQgFSUEB+HJF7djQeOcvnhJCk3lEV
-Y3fUuFDQYAYvupS+5WJ2jrb7Y+V3Sf1Q0l9ZeYdHS6t6YHokxf1D9TRElsBdM790vlRdrlRws7vL
-UtXl4GtCIxRTjL1EiNV0iuMwTCW5ie9BdbWjGSof4n7ueky0QdRhuvgCH5fimJRP7b1Giye7SM1M
-UMjxFhgnSlTMnBTJJvGEBfCB00Ebums3ttzHx8S5v1HYHyns/AsMt/wJOjKT6WUEvRKNND0Nwx07
-FjEnNKAlrFnAYb8HMLDQKO74BFE4tGH4PabQoXZRmY2O98sQ7X/m/7HJ7C2l47YRQOvfJ4IPY+JM
-loEFIMgkz6sOfGmmgo0WCAG0SLn+oedlte5yD7gxeLrmrhL7/ttu0jCvlfjQkBfoT9Sb1yBBTWgz
-aarT6Wmcr2rkFy0ABkV3klNrygfAIsoEMaNLMbfH+hywusg1SDKtLxcoxev9iK+mReyVhNfCC5W3
-X4lUIU/vajwPXgkR3aSJtt7SkGh4xhL2h/jgsSF4VstfDdAYIDyXQBBXvLbPp/Ub0zClGObutZhl
-Xj73P/WYqs+HTnZB1/YTe661sKkI+dRmIfaXbnSAFt+zGdrd/nbqOS57dekAUf8TZSIxfGXMvkhQ
-4+Fm04dLqbT7cbzqC0G+sPPyoYqhmUYnFHOwabw2AfFv3S/GImc6HzA7TTkod1u3Pa8Sh6zYSzdd
-BXNW7kX6YL3/7Yy8kLrIJ0vLQ4b2aFJ+wrIyu7rsgbeOSTMGg52ymf50+h5IGsud5oekHm12Pprz
-uvAtdHNkAy3aA1pqQ1sRM5k7rMVg1TmUvcg8d7GjXHzz4/YYSGxxL/1fKa1vHWnBtDHNrcsdDvaQ
-HeviDswptd4h+073I0ms01HUQYYM4UwzZt6ck1pVMPynPCwNXPsPq4Z9seOEQ5EJ/DsckJ3FQX5e
-BY01kC9WVq+1JxCNqa7ADuVIo8eaVO5m4QAsbjOF3i4cwtrbqwNclkTVkQLKkxhGL2dxTJ/NGrUF
-1LNd9UYEytahmjGRcvAFP7PZbbO3N7Dhqxd1l5ID7bYOU0kq7oCTI2CgyVjx/mvmk9Ruw/1n0Yu/
-esAXDIh5EkFr9hio0kMWJ9+a4ci8QR0fnwvYdWZum+IZ4RnmMZTm1i/7QOZyaJEYdX9Et+stKipq
-B7Zc8Y4VBbnqUSZ3fmUBxn4KY4aqeOWMd+GuJdzpUrvYPcJ7E0X+keX4+L5tCGvYexh5lB7/gmle
-Y5FOTYjkQGeC27kbNv9N9K2DMMuel/pM9yQ6HZ0oBdYrUXe5TVvGVPtQES+uTXCU1PCL9QVBBx2A
-dW5+lPFcE42hV2t3YWVv7McvV7C87TrIXUuuBZ3oFcPBcJIXNZ1QZLdxzXin4p+HdRhqEVQJIknk
-LaIrIKbl/P+yPC13OkAdGXSEPM0hjzIEmjyReirTa5aU3PyAq3GVEY0wcKCRADhMFruYnyQjFywl
-s7/KNZzYpdFjeMHDEvq7Dpqs7oo5ISjSjEAluFpnDU2Mp+g2hyxGQVmc8tidRmTE1kwHAGuAK433
-oPdF8a5uZjrNLbOKveDMEVJqXLrwxq8ihXy+hTLdnazAZyK5tPhY+YGYPdSlvGz1gV0k+RLAgMeQ
-Gl7naWoUcamdACctrNyh9pE3LGbgsBGU34Yw/IPF5THjuUVTLZsAbvTdGZzLHVd9YHSszvNRwrom
-uG0Q3+eVMLrZUBu9VGktTFqdMcMx155JUoU9r42r0gX50EaVZdSFytEGtFfB18zuVmDV/JzCAqZ+
-55BJhlvAIJxf08OhgMNmEwSxGosf7xm4wnVjMLaZtRJMHQaHqoiRC6yJ51vUfc3QtZ9ezOaP/Zzk
-uuh+Du707iGqmnH4JQYNjvy+PRAf1GgMzWegdzwFI3biUk2r1FZ27oENdYO0Y2abwieGrpOdTRJi
-sa4lNWQ0pkLFCLy1P1t0567511Df0tNvKlgJSH1H0mxIGaFtW6Fgy2yflZKEVru8oeeaa6LPDBwv
-REZTvgk2WY5Xa2xGgJKvLtgiMAbFauTWt4XUSb3iJtFr7f5T8Vw4JJLw5CXuBZXRbT+5uJZmWi9U
-h55RkViun4eocXCBnrUxoeHrhpbons4YGN158b8t4MW5cq/bZE+FNsv+I/975Njkk5hBdt5j/RaX
-V4Tsop6d8L++ekVu0hAGvAJFjXIgLNXWVi3MooPUwk/FWSYh7iBq2hE4zqUK87ycwSfTRaw3WkKD
-Ik9B0CdqZdny2LksIs7Qg0hZ9VhvoD1+pCrnD8l4tAc8jaha5FqUoqlB8an6IGmPH3VJOkeTdcbI
-t062p6POg8P//YzRdBvPh1piZNeYOR78LjNqeGpsprpQ4uPKc5QOG57anklzKrawGa+Qkvf8B/v5
-uVirxBC2eMMyjdRo5F3TxwOB4WFdA/MP0ED56Q1VfusWrjqjuGRa7J7xo0Xg5aIzPMhaQjqriCW1
-7GUZ0hKc4wFKwsxkStZzoJYrIVTyPxGTCrw6daNh93jyzDwmK9C7cqGcPJcH9ns9O1wfweOxFfZG
-akuxP4drPPW7Xxlrk6s+2lDjrCfCEkcwGP/j553KS/+O26YiK9mG+kmSFxCq5EMEqgPUdGbBF/de
-AY+CeVunvwbNSUBDoiwt9N+VkrreaSP3mgnVEiGJiFyVzeJ23D1S7uGwRz7zQjYiRT6GpFQo1phF
-uJZLo/VWeGU9ONxcTaRBkG4Fh5ofj/qFIpr7Ffz9dFc5vpOwV9RdSun7733vO+mVmEkBUQeWHsdJ
-/H343/n7j8nUqvKTyv22+RHF0+c+qZ/luJsc5U+yiHjOEmZuw1xN+u/E7R99WNGuVRWAMoUuOj4I
-0nhH5fyR9Y+neRniKKA10jxo028Qb5PfaYe+oprIXom5aAQRUNEj3591+X+nWoFWk4O/pKjI7it/
-58wasSjJmRk7GFY0nGm0JJWDvXNO2drehKCbzgrxlLl9exBSFWKnJC+a1+5FGczb99HdNznaN9HE
-mjsSC1ah0rjFPYs8av7w7OKJ2ufeOIBhBScCZI5kLcQc3qgu/ro5/Xhvf1UO5VXK0FilVatvqRR8
-knH2U3G38bDgaw7bH/10eMJpebinYYE6C+AU8rWdYXJoTzEX2HwGJFdJsITk4ttxw1vw1iQrSvGW
-UJQAe4gdxV94f0LGTFzVOc+bxIYMFliJQhcM6fn+gKyVJTXRsUslm38E0rGglFAzSeXu5SnXYVdI
-xregdma6YBRUZmGMGM2+pLAO3lnPcQBEc+QZJVYbrtt2LNWGHsuq+UZfVVeBoJZ1MtaYEdYLv7dm
-i+UEvMvBHhje4R6PLHZgUqWNXRnFvABDh3CdQnTd7XtPk1waYyEUxqUZ51dJlpGCWGiiLvEWrhg1
-zxPIPjV12gznwGJT0X6NJkRZcTvatiebrYYv84cGUCmWtqj08fyxP1MBA2XMJpCGnerPRdPOGivu
-PcLuepf4bZr7hLCcOvb1cw9PhPX1C1+rOf/Lpb+kByWExdulHB6vvK9L/yQlMsFQSKuOj3iYceJ0
-xugHUwqsjxxMEGXe7aKB3GXmw+1ciILU5RRwOjI3nBwDmvTFATBVu7T44vb0wXZyNzWx8H5G7IGb
-fEFTJtxiagmYuUT+Smhfdu94Sgu+Wqp20ZTZ7lpXQ40Ao8hXG+5HrKKu8hc1rSivMdeTACcrZVTP
-wnTfXA9+96KW4aI64dL6fbf65yjfyRa7ytSzcsFrLAVS1XQ1n/ZCbiGTaKVMOd7Vc7T4p0paHMnV
-SxGLQac/n13UUVOjVip2ud45NTKUGYIJW0hvaPW9AWnjgPcdQfBa3TlGZn5rL/0Mhf9lyKqqhThp
-jJalKRMSfYpheBKEFrxeMd9xCbzrvnvX+Sa/2hAykcLsCbUH5Nv3aQA8DIifwWzryQjRlmNUybQp
-jP2afEBHd6z+9dD9/H7dTpSBn4dlT9MgK/TMGLHWM/Aw83XFNOhN0Ka+m2yubvy6kJcdGfS5RTOC
-hHaxG7xY7bI3rhVhbgqHnOuU8DbCIluXEw+2OCMQaClIALtfdw9b8YUN0VQfCdlse6YX9sOPLZra
-YJvWhOcYxS6Rzo5sZZOoTNfjjZJq2b3XYOpjKjhz7OzxzWt21LYf78qMshHklm1QobREO0oT+7sH
-tN00tsEGFgGmAJroXD/Q9k7U/fwY51Rf2E4fXAKZ82/RVZWm1fxR+iZUFeDY0F/ZSa0wXRJcYfL+
-QpWtrdwLcujPKRxPcTSFYs/m2fV+qP5Y1YxGPShL8s79s9TkZI716stiav8GxtpsWsTPKJtcnTxA
-1KNAn/gx6s7adY1oYOVhO8yBrD3Kxoz6KYqij+VE8k45rglYive7OShye756HqkiPj8wA0k9Carh
-ktSzOsDS4kO9SWPS4Ks5H9iAsLkMMTVVDjnJk5J9B0QCf3e3ozt3GQVgz/p4WVSSLTNzjJFp39eB
-WpzM/HuXCGqZ1qrycHHx6BJuKWmJ7kUb1S9kHqTrP65lGmUx7xbCDBQDNMu7/oZ4nlRZtlHDcVG2
-FOGZi3RksUARmIKiRlOVAK0ttZzMP2stROMnVmqv6gClIpzxbm0MdIK/DtfEPUHBv/pf6foYQsfe
-Gv3hqqKzW9jwu8mvQMTXQibmbD90H6g2//SzWs0HwzvQFT+pYBeARogynNbb5cuYGKXHX5jKlBEj
-qLBdyUyIo1isl9yUhRkfl/F5g0kZ9ep3gcc5uHMj0JyHLo3u/1G99j4LUC/JWaWpOZqVYpdVl9lf
-Mfm2SElX/yhmdXDnYTelDRXgmLiVKay6QsYFBj9Xd8l+tv8NlCPJHPMX36QVGHWtAWO7AIa2t77U
-O6mEuZP5R7L43ro3S9UW0I2tmNIRSKcat6bzWj2iCR4ctbSPxhZuC9f9sZhpctCvKWXSmEPPVmkK
-Qm4RyueQ3DjgCRQcBorQm09mQcwErpaQltfR2yZEjMYn7k8vXU2NhrHeTOjDUfKkMDB2rf/fXY5z
-ZTmHHyeXIXp+9Di/Cuflg6rPzmQhPl9eiOF2WEg8C4+YKH3ptoAamtWdy2C2Ryro4lLgn6rM0lPS
-Z8Rcb+EfsR/n+9bay9gH/0S18lmQ01phXtwBNxBExQTAzQ+7x0K0n85Sg810FXomfYeglI4D3Rqx
-VpcppjWsODrceRDhjNHno7j2AMGfQwixZhNyUDsv477y6SIt58Azkk/6cKC9inCzbpG87D8AtgL/
-QF/iha/BdPVY1vIc3PLIHVNlh9aofzNkQqx78VgSVt5m/hbzI98n+olZhuom7HvhvGnZ7x6lHpRz
-iLr1jF1SpFCcuY/qdDE4ybq8kfKlsSIAmGhGQVFhqOiHK8MTf8L5e7GJSf0IIqIBKpiH3CoqOsKK
-lHdLPAEbgk/7gJQRNsizCkhiGRCqt+sOj3TC88kcNhEGN4Av5QEGZYqU/LHpSKWZVFmGn6LF3O2h
-H5udeqYX4iJlWJWLcfjwtY/YseiSjv1TIeO4O9N9nd6zodpA98MhVnhJruB4cv3m2et8lkY16GlC
-o+Kx4jsviRy+NIN+rqeXhSL8mIH0kb5/D/+7nJqCxw1p9+ZOKv+Xz0rxrgy8ftDsauuoAcwQusXy
-w1FF8bJj0mZfo5bPl/VXWlPBYTL7IsVHmHqjHhHdjpN2NSJhn5J8l+3hIUEj+YysbvxPXAiLi4f/
-hvpWwkQkMqC5GUtmzfHeJIpuW/054szlmFSg/mnZzoCfxPZcusTp5ShPaggPgdGjKReh50R7eIKN
-pDj0AOkKlAC6NUlg+YThvoBHsXwJjy3NDM57Xtx3rwKSNMmwb2PpTtUNGwLUwCGiKuWOnPPbYxse
-i6NYeOeSiVRjVkj5fmuGcTRy6MUp8SksRvzZ/5HGaFfoYKsFdpJsySFtte2fXSnCmdOo8QcntNYA
-7NN8Wyk9HmMPxRLZAaoSBhE3+PEiMxYq9NzpjwQts5ClfCGF7eSRBf2aDZUo7YwiZ5eWuyIJTMQi
-jNSAAhSfII3BD9V4MYyZ9kBA/d/7+YOT7nAiJiIbCOfD7N7idi4PR6O+wGgjsEzwxtEsH4IxfUX0
-Tmq/hvCT8QQ0rNqpDCWwJgoJ766gljnxhW3ZhzcyW5SSrJqRdZa8dZCJ1yooNP2hzIvxP6dpncGe
-IsjkrnjnjmxVldU4t7VZqLRIBhEM+eMSfR7KQqI9EkCkzfbJSMCid67z+YAF9tQaxjDQFlLS2E1H
-TZtASVy5P9ddR9o3It4AVI1dZmo1v3yKklA6jPIH2qyxQ4R4lP/PL31wijg7JnFC/RdIpy64hyrT
-A2asO4QwFYwdAjPTPlHg7J9H4ddWM6ru/pJ6IXT2XahAcTb5v5W94b85XRpwIkW2rF7qIkqiYn42
-bHCfIp2s1qsihXisvKvup3gKzqQdsjylnFOwzKc6IAjswtVk5fr2ATTF9V6L9YJDuu3r/RhP4wB5
-uthHFfFt1yPjvMhcZ9/59T9RgoccbS20iDYjhrHMeG5ZVWbZc67VEdAGBNRxCHh0pVKY9x23YR4D
-viJhAlX4Bf/yIB/CmiGkf96ykVI366ZfBwUVWMHvPg3XsIGQ2sRNeMtklbQS2eVB9m43QJ4xGn0Z
-p7SWxs9tNiBphqnfmLhBN1faBK6GeAZp9AeXO9mfmnQR4MO1EIye/Kuu7Ow7+wOghXRTr1QodaOg
-bkafUiqYrQasq/QuiDC9dd53uXGmycnon3a7tS+OgBWxMs+uJJYS3VD+S6waTypDuSxFUHIVXGCB
-APrYAmtOXmDce4EGkXF9YShjfc8W5fcXYa6ryAh/7dcm6IggvOJvTIHC0ZFiSyeCr37Z/L0sI+Dt
-0FtKg7x9qxHKoLgxZA2fiPMLA+u5uTKKEomjfJbPyZMHTJH2GTaGcNPe7DQioEHxX7d2KWleK75N
-QBQ31vRqQ4mzYrzaHRX9g3dvfuZDLa/PfwyoJBo+sAEIi4hX7TJGJ/zt5c8OqWVdE8sOPEO8DmR2
-PGKUKh8cM1Bo9Rr1H6WqB2ckJtBlKO0Oh0vXPFz2MN6uFzgjvlpbQdQ6MQTolenFiowf5q3Gfgph
-5k5pdJ7PLbi42DO6lbHgPhGX3MsY9q9RgQFFcU1/YZV6zHKoK9PKy0GIiNTOzOfbqv3HkQ25iinG
-L9xfp989P/CDx3fzvzHcHsbAsKxIeQhQMj9ADj/r8jwZTibvIDgWRkP+TlFt6bEgHzjOQme/VrYR
-pvsyRwikh+BF9MtJ6/0XCt/ZNMYWknNKOvab9s+egkYgA+NtpJThF/GkJ9FCfe5ccO+EbqrfU76W
-ZrGgAVbyFVm7NQgqZkrbRNjAoW7Xh5p9m1Vz+/Ns6WE+2RHD1qPv+dnyrmy1+5Fl/Y7PpCdG+aas
-YgOC9yo6GFhrsA+SW3A3XdszXEpo2s7Td6hxc4NRvsqAcyiojb2akZrkGfxvH5+tvAkAys90awEq
-7lMB7fRIWWDOk4b5ajY0IsMw9rszRMYfveR1+u2CX3R1MSGlvscf0kEYbNao4EgDvIvoK+vMlRnO
-xLZSl18EFHjF7hJGLWkY9jlB0lZdax/sCvRBFNGZMl3+1FvAsx8+K14gdS2vvgP17rkyOpC5UhKI
-la353K3k6xI/M7HLqOVsrRfTvVEuIUlPYDt8pm8QyXd6p7E9A8E1d/XDFPo1Noj+c1f+847elksQ
-2+QIVklooCrOLpgn4gAAC0cnAr3aXSDRLAn0PuS+B2Shb/P5iGv8c4vqP7UlVaKHZy2Bk/zTtWfW
-Tz0YYPFU+FMwzLEdmIiH+slpBeTLATDPIrp4L0+7+SdDTs+0wSiqxZxybwFyo5fkPOIaLLmm7X5m
-tasAsoXfX8tD9AhyQrWhVMoSVDPheD4P/etglWBJKx0n8HWrZfDbacZBC7TpX43W0m3WG/posT9h
-hurv0XUQlT90SlTK7yEjTi4hwajFyErvs1SiXzX0pMzNRAN01zF6t3M8RroWZOI6Sfh0Sb06xtNY
-Hvi9iiri158nZYVZfP77Vco/2R1P82+BQUBhdnwJGjfa4PzoincBcr5AUTeZUeHc3x4cZ1L5mU3U
-EQiXvxm1Gl/wP3DYo8cBECgwLD5T60RT9GqT+9unPqXFfoJ1u/KVB7xKKGgfeqFM6Gtq7AQYGV7i
-Hlt4WCinsvVQN/JJARYrmcFdSlZe6UCrlWX/5k7cZk4C3PmtzQAX8k711Of1ybAJBG5tQuHxziHt
-HO4RAvTuGyk1LCOXb8XABfYkBLccXU+dW2hRRq7XcHdy0fmv2tVxoUvkql/klYCSJdEnTXd5ADBH
-izinlSwfLQN6mCm9Fp/RbcL5prM8QpYdqwnh/veEs/OWlJF2+o+LHM3M9nI5jDWoS1ZjgmNG2xqQ
-bZBrcJLiZvDpufEVn1IYCeFTO6US7iv9io2uzLDAl6h7Qf8e1hQ9k2+PReWdFVYTdb4JsEdio2z1
-NouAUs7v3mGBJBvwh7WCQBcF16gRw41U4OUG9rOI/8OC8XXCrvFzWFQlZAaLnNZgNEJXdIkNjIp+
-5FvGtYYz+3ivaa3Df9zUKp/dWlQ3aFftavp8Zcaf0WaGJ989gvQi62pzIbzBTL4EGtEFc+ZAJdVb
-AIw3EpCpwiXy+8p9FelYG2AAsLWM+od3gF9HURfeWpRXk/AnIX9F6LE3ZPH1h/6J+IELELlh22+f
-3fpM6sl1isU0mmFN7Rk3MYXnT5RRDfpjaCq7vwqiCTsRkmQUHzIVWLJczKFC7MjK6kYwnbYaHzA0
-9dW0taK45EBLxN3/pHHDFh595mN2dL56RRK7+5gUSjwBfJHx9RkHLWgPy/hLMXjajH7+fCE01czL
-0zHxDfmH8z3PEWo02QYMw7gapAHkEhVuxIZV+HoJWhvnVwIuu19uK+Xu9NwJE0pUZT2X1/Nqdnla
-Oa6hP0gtpEq/amq7Zw3GLyXlnz4JDfbUp+oOlLl5aNLlT6qDXx/6bj5susCO/QP5YsMwZzDBmYL2
-IPq398LSj5PUEPfLoQyqWPBnA5G350oE90c9taPW19J+ITi7V7CkKB2WvNSmzHUZOQu+PlwayKsW
-diU2VbGF3WllW+N7Hn8aM3GMpbuw7vdZXrVUqDq+tYud0GxG4QHRMl/Rvw8rSZbxU6CuOsKM22Yf
-APjfgSHzajh6sYvJms+LVEUEwHFCHCoSZLv8vBJCgwQxKwOxTkJa6fhObaMAXato//d1BKLk1RLr
-tIrc+ATbHCCkILhHVyL0ahf6nO72FjF9cNlEcR9HPA2NDgNf8vvb0Ui/sEawsTqUDnWzFaq/jmEy
-D10ffPeevKJq6YpiozYyI5LAIvVEw0soCYDs6fvHDtbKpr90jVZ/H9k3Xms+7vtVxtEbXgJVp2C7
-0o9fQNmcVbsmBUfGJJGK+voFuQr3rvNhhCX7rxcGdccH5wysQQSDjFlsTNGUBiPNQaWXSltt88eX
-YV9MXg9TyZ7+mUX2pCd1ZaB2MzP4HpNnPEVluQ5Ipbps/qaj8Zj6ofFyuRwJzciTe3zpKaqOz1vo
-v+N7kGrOkGNbKhJLrH2nEUkK3IFzx8ZHHFVBPGvwFzfeo/pohQJFN+joZyDeaFxwJvs4auT+smQl
-Ru6T//1Vbr0A9wEBYWNb/KM5/dTOwN7IVY/I6BuoY8lDOKuSLqRPYZMVHtiu2GobIRabdiaC5LOf
-hM1AmdMDwdRy6DyEOI4jpLrQfDN7zGbJz1TMZfWnCi3lm2V8Ukz44DB/dK3Jq88GL3AopLVcrl3a
-ITJ4YHA9OyGzBN1P9fPbaHqAW0TayvEtMMAWrtwXVPWNshlQfaDNaQ8iZMSnnaqNpMw5pGCvwpA1
-aM7rpGLhVbCDIJX3NHghub8CxRfJXSpgEiMuDaIRksLz80mHJeUdKmgYJnc+o5fc4RRya+S2WaxP
-/OeQJJxcsX+NdL4U5nRivUMrm4yr5nShfYdmqsUciUgwP+9U1YSe0+FbtA0orbiJtoKl+WTlhWN7
-hiwlhOJCDoaH8IIUjrkVSy11TdFWBcy/CQg09mXQtH5z2oeTGJr/fT8LZFMPww3WqKkHJpbAOhG+
-6H5xQVOtCcpdqjCj94E2bLW/RlOZo69eoRPqcv4zTM0+CdzXCuMlLI0fi1bJ/FIuAzrjcp8LDMf0
-n8UUMjJ0mGlrvcRwcSeCKT6xwxJZlzt+KU4dUn3xk/NcHM9br39mILj/IYcA+WEIwfBV6K3xdB4w
-Gxl2HaarxkGqwJ5inDGrtsvjXjLbAskpYCIbSx32lyfK4OAEiySU2L1nWfbtR2ldcnbjTumtcYPL
-++oovQFQ8JI0Hhsfxp9sjBP3jqynYU7S0XNgu+2zkehAH9fT9LYySuZqwH1mzGpUQ+JeHF5T0Cp9
-tWti1CaP0pN9f0QCx8m16ahjGjX55+9e5W4Ne1piPCXrY03TDyJStprpctS2ZhQCsVLr5WKdih4q
-Anp8HB/llkB13XfXN17PkFgzY0bmlKwH0NSTesCXTpNnNcqp4OVYaJF6djDXP7e8ZdyMgAkThs9z
-wHgqWQXlOaawq1N3mRZ9irmQTKB5Gk4WDYmHPBNLHT5wqB6OawQhf1sbEUrlsG23KRDSQVIBkp15
-nJig/tzQB62arS80x5mqjpqQB89vZVSVZEw3JfVGrIBTNyYe7absWrvV4vW1CR06ruPZuS+ZnODA
-D98h8dQBnBxAwu89s6fJBw2IsbCobAgxLr2+FVHWfUTAf6+zIlo3Z/oPDoNQGr6T4X9u5IkqD1wV
-l9w+MLDrqUk7iGrmrdIdBrOIlGk/249ZPN02fiBmnBqHxq+wbXLjljl+HWfFy+LYTXIJ6zvUIH2N
-JzGc8r5cdHv95OieCnbohEDMNH22Twv5Z3KoaPbYVorVNdC0Lu2ZK9G/AZfgFNVkvxcZ5dSReAsk
-tJ1ifZgBGXxsox95JzB+Pa0QuIhlpnSog00fEYhaI8bsxIH9pYtmBkJ+ept798jXWKM1oW8//QZq
-ZFPwoJloCS/zqpjR5vAD6My9QiM2dFkRjz+tZ+zQbGcbxwXKdJfa0qdRgTAv05OEZhRt+w80AOcI
-9wQul6D6SIpFdHwQHFg8CssMITkye/+uwNCXB57SL9TWISsBYVwGGydA2+AAKWuhIk3BBlHBvjc2
-zr7yEYDw2nq/09Jo1qWlSELgb2nGxH68/+qC4/4Dsqpd7CSpO1rTEgG7DJZjrmpVo6yW8ESiD961
-D4gHTsWb4ou10N3sb1I4aldKnawdwpUwQCi/5VZQErZOAa+m4SP7SUDFZcRbws+SQLDMhvQusVeF
-MiqS6SCrJkk/9Xj88ilVr1YcryUWA5wQ38nd75J/7U2FIo4GpIqHcz3akd+9j5uU25LawCPXyb79
-m6OGw7a9z2PiWVbqLcd0yr/F2dHBphLZsuRaitTX1HVECz6uwzxe7NbR1B3uWpjoEZ4bHtWcc+IA
-0dVWd+A6gll1AnwZsfwWNtqXEr9+Is9LWi2Hn9GLjNDcbConib9wBdnAbE4pDpe0DDRSnHBeIA8J
-7k7OE0BLHm8Op3bruqjzM3inIZdbBtqQgROWnPwuBFMTNrJ/iRzYbnHgAtzq//wdbqF7ZC+wXtbz
-idC2ABg1TZYngf3GXL+41+aDCg53le/WEgwJa8qcylbMBln20X0OfaqdFZy0mQz+2PuWjxNPhNhj
-B0GL34bU+u1Shgbs/emdypREa2skkZ1prbbstLmj0Z4V6ORcCA32NxNQKjODvvOGogwfkbY2bx4Z
-z/nxFwUBuCkt0fNmRMJm2HDh9849tyPmT+b+U3sikpKtgA2mOJ9CMnyn0qsdZSnyLHuJmDW+5sLJ
-sE5Jy3YEaygGf8uTM+FMdVSrpz6hmJG119aAnpfU7zvP0ZRIQwVJ+A0k573KH210OHwC/ozoR5tt
-SD7YJBZ8dUVPQo3YmB1MzojIQ5kPt0S7b1GYdSxqjuLwoQZMfezjgbZDa1QDcCGzeT6OdkU0UCwf
-dakgE/4I6LWr+5MQjDOO72dR4z5nN61QhatRtIbNunwu1OXn37ZK1LRRROk5EZtFvqvjIcAbcDHJ
-7ywIiFHhggqrQ3WCbLElnSISLBkRrlr4MlxQ298iVbWHrmYAHlgo6Nxdu5qYmMgzH6k1ciyJRjGP
-ljJobUQ4BZJD4Cx9yur4LM776unhGTIhImRG3fbhuehVcw4TgBNPHTTa1hEF+LSbMHv/jVfW45wa
-KT1znn2qCH+4GFLbZ1hLAJ4dCwHJOoCKet4ZXE0pmzPv/x9sLRydK2xc/dQqw19cgP7f1sZAHcZ8
-KdNj/1Zxf6FRIgPw5I5Ocyogx/O3miFtjlTz7GW87IWT2sDh2uUag/poGObnJBubIAIvniLl71g/
-OiA+vJ2HgD5p8ra0qbxdjZ6UpILPzGtY0Lx2CakmucVpipjIKXJ1q2cTOw+NU1qa
+<!DOCTYPE html>
+<html class=" ">
+
+<head>
+    <!-- 
+         * @Package: Complete Admin - Responsive Theme
+         * @Subpackage: Bootstrap
+         * @Version: BS4-1.0
+         * This file is part of Complete Admin Theme.
+        -->
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8" />
+    <title>ADMINISTRAR VEHICULO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/favicon.png" type="image/x-icon" /> <!-- Favicon -->
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url(); ?>assets/images/apple-touch-icon-57-precomposed.png"> <!-- For iPhone -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url(); ?>assets/images/apple-touch-icon-114-precomposed.png"> <!-- For iPhone 4 Retina display -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url(); ?>assets/images/apple-touch-icon-72-precomposed.png"> <!-- For iPad -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url(); ?>assets/images/apple-touch-icon-144-precomposed.png"> <!-- For iPad Retina display -->
+
+
+
+
+    <!-- CORE CSS FRAMEWORK - START -->
+    <link href="<?php echo base_url(); ?>assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="<?php echo base_url(); ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="<?php echo base_url(); ?>assets/plugins/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/> -->
+    <link href="<?php echo base_url(); ?>assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url(); ?>assets/css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url(); ?>assets/plugins/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css" />
+    <!-- CORE CSS FRAMEWORK - END -->
+
+    <!-- HEADER SCRIPTS INCLUDED ON THIS PAGE - START -->
+    <link href="<?php echo base_url(); ?>assets/plugins/jquery-ui/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="<?php echo base_url(); ?>assets/plugins/select2/select2.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <!-- HEADER SCRIPTS INCLUDED ON THIS PAGE - END -->
+
+
+    <!-- CORE CSS TEMPLATE - START -->
+    <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url(); ?>assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url(); ?>assets/css/tecmmas.css" rel="stylesheet" type="text/css" />
+    <!-- CORE CSS TEMPLATE - END -->
+</head>
+<!-- END HEAD -->
+
+<!-- BEGIN BODY -->
+<!--<form action="<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/gestionar" method="post">-->
+
+<body class=" ">
+
+    <!-- START TOPBAR -->
+    <div class='page-topbar '>
+        <div class='logo-area'>
+
+        </div>
+        <div class='quick-area'>
+            <div class='float-left'>
+                <ul class="info-menu left-links list-inline list-unstyled">
+                    <li class="message-toggle-wrapper list-inline-item">
+                        <ul class="dropdown-menu messages animated fadeIn">
+                            <li class="list dropdown-item">
+                            </li>
+                        </ul>
+                    </li>
+            </div>
+        </div>
+
+    </div>
+    <!-- END TOPBAR -->
+
+    <!-- START CONTENT -->
+    <section class="wrapper main-wrapper row" style=''>
+
+
+        <div class="clearfix"></div>
+        <!-- MAIN CONTENT AREA STARTS -->
+        <div class="col-xl-12">
+            <section class="box " style="padding: 5px">
+                <div class="col-lg-12 col-md-12 col-12">
+
+
+                    <section class="box ">
+                        <header class="panel_header">
+                            <h2 class="title float-left">vehículo</h2>
+                        </header>
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4 col-sm-4">
+                                <input type="button" class="btn btn-block bot_azul" style="width: 100px" onclick="location.href = '../CPrincipal';" value="Atras" />
+                            </div>
+                            <div class="col-md-4 col-lg-4 col-sm-4">
+                                <input class="btn btn-block bot_verde" type="button" style="width: 100px" value="Nuevo" onclick="location.reload()" />
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3 col-sm-3">
+                                <div class="form-group">
+                                    <input class="form-control" id="numero_placa" placeholder="PLACA" />
+                                    <label id="msjnumero_placa" style="display: none;position: absolute"></label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-sm-3">
+                                <div class="form-group">
+                                    <input class="btn btn-block bot_verde" style="height: 40px;padding: 5px;" onclick="buscarVehiculo()" type="submit" value="Buscar" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-4 col-sm-12">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Extranjero</label>
+                                            <select class="form-control" id="extranjero">
+                                                <option value='N' select>NO</option>
+                                                <option value='S'>SI</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Clase</label>
+                                            <select class="form-control" id="idclase" disabled></select>
+                                            <label id="msjidclase" style="display: none;position: absolute"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 col-sm-12">
+                                        <label for="validationCustomUsername">Marca</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <input class="btn btn-block bot_verde" type="button" id="btnmarca" style="height: 40px;padding: 5px" value="🔎" disabled data-toggle='modal' data-target='#marcaModal' />
+                                            </div>
+                                            <input class="form-control" id="idmarca" disabled />
+                                            <input type="hidden" id="idmarcarunt" />
+                                            <label id="msjidmarca" style="display: none;position: absolute"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 col-sm-12" style="margin-top: 20px">
+                                        <label for="validationCustomUsername">Linea</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <input class="btn btn-block bot_verde" type="button" id="btnlinea" style="height: 40px;padding: 5px" value="🔎" disabled data-toggle='modal' data-target='#lineaModal' />
+                                                <input type="hidden" id="idlinearunt" />
+                                                <label id="msjidlinea" style="display: none;position: absolute"></label>
+                                            </div>
+                                            <input class="form-control" id="idlinea" disabled />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 col-sm-12" style="margin-top: 20px">
+                                        <label for="validationCustomUsername">Carroceria</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <input type="hidden" id="idcarroceriarunt" />
+                                                <input class="btn btn-block bot_verde" type="button" id="btncarroceria" style="height: 40px;padding: 5px" value="🔎" disabled data-toggle='modal' data-target='#carroceriaModal' />
+                                                <label id="msjidcarroceria" style="display: none;position: absolute"></label>
+                                            </div>
+                                            <input class="form-control" id="diseno" disabled />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-lg-6 col-sm-6" style="margin-top: 20px">
+                                        <div class="form-group">
+                                            <label class="control-label">Servicio</label>
+                                            <select class="form-control" id="idservicio" disabled></select>
+                                            <label id="msjidservicio" style="display: none;position: absolute"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-lg-6 col-sm-6" style="margin-top: 20px">
+                                        <div class="form-group">
+                                            <label class="control-label">Combustible</label>
+                                            <select class="form-control" id="idcombustible" disabled></select>
+                                            <label id="msjidcombustible" style="display: none;position: absolute"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Modelo</label>
+                                            <input class="form-control" id="ano_modelo" type="number" disabled>
+                                            <label id="msjano_modelo" style="display: none;position: absolute"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Kilometraje</label>
+                                            <input class="form-control" id="kilometraje" type="number" disabled="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-4 col-sm-12">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12 col-sm-12">
+                                        <label for="validationCustomUsername">Color</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <input type="hidden" id="idcolorrunt" />
+                                                <input class="btn btn-block bot_verde" type="button" id="btncolor" style="height: 40px;padding: 5px" value="🔎" disabled data-toggle='modal' data-target='#colorModal' />
+                                                <label id="msjidcolor" style="display: none;position: absolute"></label>
+                                            </div>
+                                            <input class="form-control" id="idcolor" disabled />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6" style="margin-top: 20px">
+                                        <div class="form-group">
+                                            <label class="control-label">N° Chasis/serie</label>
+                                            <input class="form-control" id="numero_serie" type="text" disabled>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6" style="margin-top: 20px">
+                                        <div class="form-group">
+                                            <label class="control-label">N° de motor</label>
+                                            <input class="form-control" id="numero_motor" type="text" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Vin</label>
+                                            <input class="form-control" id="numero_vin" type="text" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-sm-4" id="div_potencia">
+                                        <div class="form-group">
+                                            <label class="control-label">Potencia</label>
+                                            <input class="form-control" id="potencia_motor" disabled="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Cilindraje</label>
+                                            <input class="form-control" id="cilindraje" disabled="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 col-sm-12">
+                                        <div class="form-group">
+                                            <label class="control-label">N° tarjeta propiedad</label>
+                                            <input class="form-control" id="numero_tarjeta_propiedad" disabled="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Tipo vehiculo</label>
+                                            <select class="form-control" id="tipo_vehiculo" onchange="cambiarTV(this)" disabled=""></select>
+                                            <strong style="color: #E31F24"></strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Fecha matricula</label>
+                                            <input type="text" class="form-control" id="fecha_matricula" data-mask="y-m-d" disabled="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Número ejes</label>
+                                            <select class="form-control" id="numejes" disabled=""></select>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Número llantas</label>
+                                            <select class="form-control" id="numero_llantas" disabled=""></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Número sillas </label>
+                                            <input class="form-control" id="numsillas" type="number" disabled="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-4 col-sm-12">
+                                <div class="row">
+
+                                    <div class="col-md-4 col-lg-4 col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Tiempos</label>
+                                            <select class="form-control" id="tiempos" disabled=""></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-sm-4" id="div_cilindros">
+                                        <div class="form-group">
+                                            <label class="control-label">Cilindros </label>
+                                            <select class="form-control" id="cilindros" disabled=""></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-sm-4">
+                                        <div class="form-group">
+                                            <label class="control-label">Enseñanza </label>
+                                            <select class="form-control" id="ensenanza" disabled=""></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-sm-8">
+                                        <div class="form-group">
+                                            <label class="control-label">Pasajeros (sin conductor) </label>
+                                            <input class="form-control" id="num_pasajeros" type="number" disabled="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4 col-sm-4" id="div_taximetro">
+                                        <div class="form-group">
+                                            <label class="control-label">Taximetro </label>
+                                            <select class="form-control" id="taximetro" disabled=""></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Pais </label>
+                                            <select class="form-control" id="idpais" disabled=""></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Numero de exostos </label>
+                                            <select class="form-control" id="numero_exostos" disabled=""></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6" id="div_convertidor">
+                                        <div class="form-group">
+                                            <label class="control-label" id="labelScooter">Convertidor catalitico </label>
+                                            <select class="form-control" id="scooter" disabled=""></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-lg-3 col-sm-3" id="div_blindaje">
+                                        <div class="form-group">
+                                            <label class="control-label">Blindaje </label>
+                                            <select class="form-control" id="blindaje" disabled=""></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-lg-3 col-sm-3" id="div_polarizado">
+                                        <div class="form-group">
+                                            <label class="control-label">Polarizado </label>
+                                            <select class="form-control" id="polarizado" disabled=""></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Fecha vencimiento soat </label>
+                                            <input type="text" class="form-control" id="fecha_vencimiento_soat" data-mask="y-m-d" disabled="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-6" id="div_conversion_gas">
+                                        <div class="form-group">
+                                            <label class="control-label">Conversion a gas</label>
+                                            <select class="form-control" id="chk_3" disabled=""></select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-12 col-sm-12" id="div_fecha_certificado_gas">
+                                        <div class="form-group">
+                                            <label class="control-label">Fecha certificado gas</label>
+                                            <input type="text" class="form-control" id="fecha_final_certgas" data-mask="y-m-d" disabled="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-4 col-sm-12">
+                                <div class="row">
+
+
+                                    <div id="inputEmpresa" style="display: none">
+                                        <div class="col-md-12 col-lg-12 col-sm-12" id="div_nombre_empresa">
+                                            <div class="form-group">
+                                                <label class="control-label">Nombre empresa</label>
+                                                <input type="text" class="form-control" id="nombre_empresa">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </section>
+
+            <section class="box">
+                <div class="row">
+                    <div class="col-md-12 col-lg-5 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 col-sm-6">
+                                <header class="panel_header">
+                                    <h2 class="title float-left">PROPIETARIO</h2>
+                                </header>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-6" style="margin-top: 10px">
+                                <input type="button" id="btnBuscarPropietario" class="btn bot_azul" title="1" value="Buscar propietario" onclick="BuscarPropietario(this)" disabled />
+                            </div>
+                        </div>
+                        <input type="hidden" id="idpropietario" />
+                        <div class="row" style="margin-left: 20px">
+                            <div class="col-md-12 col-lg-12 col-sm-12">
+                                <label class="control-label">Documento</label>
+                                <input type="text" class="form-control" id="documento_propietario" disabled="">
+                            </div>
+                            <div class="col-md-12 col-lg-12 col-sm-12">
+                                <label class="control-label">Nombres</label>
+                                <input type="text" class="form-control" id="nombre_propietario" disabled="">
+                            </div>
+                            <div class="col-md-12 col-lg-12 col-sm-12">
+                                <label class="control-label">Apellidos</label>
+                                <input type="text" class="form-control" id="apellido_propietario" disabled="">
+                            </div>
+                            <div class="col-md-12 col-lg-12 col-sm-12">
+                                <label class="control-label">Telefono</label>
+                                <input type="text" class="form-control" id="telefono_propietario" disabled="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-2 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-sm-12">
+                                <div style="display: flex; justify-content: center; margin-top: 40px">
+                                    <label class="form-label" for="field-11">¿La persona que trajo el vehículo es el propietario?</label><br>
+                                    <select class="form-control" id="escliente" onchange="escliente(this.value)" disabled></select>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-12 col-lg-5 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 col-sm-6">
+                                <header class="panel_header">
+                                    <h2 class="title float-left">CLIENTE</h2>
+                                </header>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-6" style="margin-top: 10px; text-align: center">
+                                <input type="button" id="buscar_cliente" class="btn bot_azul" title="0" onclick="BuscarPropietario(this)" value="Buscar cliente" disabled />
+                            </div>
+                        </div>
+                        <input type="hidden" id="idcliente" />
+                        <div class="row" style="margin-right: 20px; margin-left: 20px">
+                            <div class="col-md-12 col-lg-12 col-sm-12">
+                                <label class="control-label">Documento</label>
+                                <input type="text" id="documento_cliente" class="form-control" id="documento_cliente" disabled>
+                            </div>
+                            <div class="col-md-12 col-lg-12 col-sm-12">
+                                <label class="control-label">Nombres</label>
+                                <input type="text" id="nombre_cliente" class="form-control" id="nombre_cliente" disabled>
+                            </div>
+                            <div class="col-md-12 col-lg-12 col-sm-12">
+                                <label class="control-label">Apellidos</label>
+                                <input type="text" id="apellido_cliente" class="form-control" id="apellido_cliente" disabled>
+                            </div>
+                            <div class="col-md-12 col-lg-12 col-sm-12">
+                                <label class="control-label">Telefono</label>
+                                <input type="text" id="telefono_cliente" class="form-control" id="telefono_cliente" disabled>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </section>
+
+            <div class="col-md-12 col-lg-12 col-sm-12">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 col-sm-6">
+                        <input id="btnGuardar" class="btn  btn-block bot_gris" value="Guardar" onclick="guardarVehiculo()" disabled />
+                        <input id="migrateLineaMarca" type="hidden" />
+                        <label id="msjguardar" style="display: none;position: absolute"></label>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sm-6">
+                        <input id="btnGuardarNuevo" type="button" class="btn btn-block bot_gris" type="submit" value="Guardar y nuevo" onclick="guardarNuevo()" disabled />
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sm-6">
+                        <input id="btnGuardarFinalizar" type="button" class="btn btn-block bot_gris" type="submit" value="Guardar y finalizar" onclick="guardarFinalizar()" disabled />
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sm-6">
+                        <input class="btn btn-block bot_verde" type="button" value="Nuevo" onclick="location.reload()" />
+                    </div>
+                </div>
+            </div>
+
+
+            <br>
+            <input type="button" class="btn btn-block bot_rojo" onclick="location.href = '../CPrincipal';" value="Cancelar" style="width: 200px" />
+            <div style="text-align: center;color: gray">
+                <?php echo $this->config->item('derechos'); ?>
+            </div>
+
+        </div>
+    </section>
+    </div>
+
+
+    <!-- MAIN CONTENT AREA ENDS -->
+    </section>
+
+    <!-- END CONTENT -->
+    <div class="modal" id="colorModal" s tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog animated bounceInDown">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">BUSCAR COLOR</h4>
+                </div>
+                <div class="modal-body" style="background: whitesmoke">
+                    <table class="table">
+                        <tr id="facturacion">
+                            <td style="width: 40%;text-align: right">
+                                COLOR
+                            </td>
+                            <td style="width: 60%;text-align: left;padding-left: 10px">
+                                <input id="textoColor" type="text" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 50%;text-align: left;padding-left: 10px">
+                                <input class="btn btn-block bot_verde" onclick="buscarColores(this.title)" title="a" type="button" style="height: 40px;padding: 5px" value="Aproximado 🔎" />
+                            </td>
+                            <td style="width: 50%;text-align: left;padding-left: 10px">
+                                <input class="btn btn-block bot_verde" onclick="buscarColores(this.title)" title="e" type="button" style="height: 40px;padding: 5px" value="Exacto 🔎" />
+                            </td>
+                        </tr>
+
+                    </table>
+                    <label id="mensaje"
+                        style="background: white;
+                       width: 100%;
+                       text-align: center;
+                       font-weight: bold;
+                       font-size: 15px;
+                       padding: 5px;border: solid gray 2px;
+                       border-radius:  15px 15px 15px 15px;color: SALMON"></label>
+                    <br>
+                    <h5>Coincidencias</h5>
+                    <table id="listaColores" class="table">
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-default" type="button">CANCELAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="marcaModal" s tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog animated bounceInDown">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">BUSCAR MARCA</h4>
+                </div>
+                <div class="modal-body" style="background: whitesmoke">
+                    <table class="table">
+                        <tr id="facturacion">
+                            <td style="width: 40%;text-align: right">
+                                MARCA
+                            </td>
+                            <td style="width: 60%;text-align: left;padding-left: 10px">
+                                <input id="textoMarca" type="text" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 50%;text-align: left;padding-left: 10px">
+                                <input class="btn btn-block bot_verde" onclick="buscarMarcas(this.title)" title="a" type="button" style="height: 40px;padding: 5px" value="Aproximado 🔎" />
+                            </td>
+                            <td style="width: 50%;text-align: left;padding-left: 10px">
+                                <input class="btn btn-block bot_verde" onclick="buscarMarcas(this.title)" title="e" type="button" style="height: 40px;padding: 5px" value="Exacto 🔎" />
+                            </td>
+                        </tr>
+
+                    </table>
+                    <label id="mensajeM"
+                        style="background: white;
+                       width: 100%;
+                       text-align: center;
+                       font-weight: bold;
+                       font-size: 15px;
+                       padding: 5px;border: solid gray 2px;
+                       border-radius:  15px 15px 15px 15px;color: SALMON"></label>
+                    <br>
+                    <h5>Coincidencias</h5>
+                    <table id="listaMarcas" class="table">
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-default" type="button">CANCELAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="lineaModal" s tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog animated bounceInDown">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">BUSCAR LINEA</h4>
+                </div>
+                <div class="modal-body" style="background: whitesmoke">
+                    <table class="table">
+                        <tr id="facturacion">
+                            <td style="width: 40%;text-align: right">
+                                LINEA
+                            </td>
+                            <td style="width: 60%;text-align: left;padding-left: 10px">
+                                <input id="textoLinea" type="text" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 50%;text-align: left;padding-left: 10px">
+                                <input class="btn btn-block bot_verde" onclick="buscarLineas(this.title)" title="a" type="button" style="height: 40px;padding: 5px" value="Aproximado 🔎" />
+                            </td>
+                            <td style="width: 50%;text-align: left;padding-left: 10px">
+                                <input class="btn btn-block bot_verde" onclick="buscarLineas(this.title)" title="e" type="button" style="height: 40px;padding: 5px" value="Exacto 🔎" />
+                            </td>
+                        </tr>
+
+                    </table>
+                    <label id="mensajeL"
+                        style="background: white;
+                       width: 100%;
+                       text-align: center;
+                       font-weight: bold;
+                       font-size: 15px;
+                       padding: 5px;border: solid gray 2px;
+                       border-radius:  15px 15px 15px 15px;color: SALMON"></label>
+                    <br>
+                    <h5>Coincidencias</h5>
+                    <table id="listaLineas" class="table">
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-default" type="button">CANCELAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="carroceriaModal" s tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog animated bounceInDown">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">BUSCAR CARROCERIA</h4>
+                </div>
+                <div class="modal-body" style="background: whitesmoke">
+                    <table class="table">
+                        <tr id="facturacion">
+                            <td style="width: 40%;text-align: right">
+                                CARROCERIA
+                            </td>
+                            <td style="width: 60%;text-align: left;padding-left: 10px">
+                                <input id="textoCarroceria" type="text" class="form-control" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 50%;text-align: left;padding-left: 10px">
+                                <input class="btn btn-block bot_verde" onclick="buscarCarroceria(this.title)" title="a" type="button" style="height: 40px;padding: 5px" value="Aproximado 🔎" />
+                            </td>
+                            <td style="width: 50%;text-align: left;padding-left: 10px">
+                                <input class="btn btn-block bot_verde" onclick="buscarCarroceria(this.title)" title="e" type="button" style="height: 40px;padding: 5px" value="Exacto 🔎" />
+                            </td>
+                        </tr>
+
+                    </table>
+                    <label id="mensajeC"
+                        style="background: white;
+                       width: 100%;
+                       text-align: center;
+                       font-weight: bold;
+                       font-size: 15px;
+                       padding: 5px;border: solid gray 2px;
+                       border-radius:  15px 15px 15px 15px;color: SALMON"></label>
+                    <br>
+                    <h5>Coincidencias</h5>
+                    <table id="listaCarrocerias" class="table">
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-default" type="button">CANCELAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modalOtroCda" s tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog animated bounceInDown">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">INFORMACION IMPORTANTE</h4>
+                </div>
+                <div class="modal-body" style="background: whitesmoke">
+
+                    <label id="mensaje"
+                        style="background: white;
+                       width: 100%;
+                       text-align: center;
+                       font-weight: bold;
+                       font-size: 15px;
+                       padding: 5px;border: solid gray 2px;
+                       border-radius:  15px 15px 15px 15px;color: SALMON">EL VEHÍCULO ESTUVO EN OTRO CDA RECIENTEMENTE, COMUNIQUESE CON EL JEFE DE PISTA</label>
+                    <br>
+
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-default" type="button">CANCELAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="sel_tipo_vehiculo" s tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog animated bounceInDown">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Bienvenido al modulo vehiculos.</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" id="cierre-modal">×</button>
+                </div>
+
+                <div class="modal-body" style="background: whitesmoke">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="sel-intro-vehiculo" style="text-align: center; margin-top: 25px;">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-6 col-md-6">
+                                        <button class="btn-success" onclick="ingresarPlaca()">Ingresar Placa</button>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-6 col-md-6">
+                                        <button class="btn-success" onclick="selVewhiculo()">Seleccionar vehiculo</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div style="display: none; text-align: center; position: absolute" id="div-buscar-placa">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-6 col-md-6">
+                                        Placa:
+                                    </div>
+                                    <div class="col-sm-6 col-lg-6 col-md-6">
+                                        <input id="placaIngresada" type="text" class="form-control" style="width: 250px; text-transform: uppercase" />
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div style="display: none; text-align: center; position: absolute" id="div-selvehiculo">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        Tipo vehiculo:
+                                        <div class="col-sm-6">
+                                            <select id="select-tipovehiculo" style="width: 220px; height: 40px">
+                                                <option value="">Seleccionar</option>
+                                                <option value="1">Liviano</option>
+                                                <option value="2">Pesado</option>
+                                                <option value="3">Moto</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <label id="mensajeModalVehiculo"
+                            style="background: white;
+                       width: 100%;
+                       text-align: center;
+                       font-weight: bold;
+                       font-size: 15px;
+                       padding: 5px;border: solid gray 2px;
+                       border-radius:  15px 15px 15px 15px;color: SALMON;display: none"></label>
+                    </div>
+                    <div class="modal-footer">
+                        <div style="text-align: center"></div>
+                        <div id="btn-save-configuracion"></div>
+
+                        <button data-dismiss="modal" class="btn btn-default" type="button" id="cancel-modal-vehiculo">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- END CONTAINER -->
+        <!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
+
+
+        <!-- CORE JS FRAMEWORK - START -->
+        <script src="<?php echo base_url(); ?>assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/js/popper.min.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/js/jquery.easing.min.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>/application/libraries/package/dist/sweetalert2.all.min.js"></script>
+        <script src="<?php echo base_url(); ?>assets/plugins/pace/pace.min.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/plugins/viewport/viewportchecker.js" type="text/javascript"></script>
+        <script>
+            window.jQuery || document.write('<script src="<?php echo base_url(); ?>assets/js/jquery-1.11.2.min.js"><\/script>');
+        </script>
+        <!-- CORE JS FRAMEWORK - END -->
+
+
+        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
+
+        <script src="<?php echo base_url(); ?>assets/plugins/inputmask/min/jquery.inputmask.bundle.min.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/plugins/jquery-ui/smoothness/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="<?php echo base_url(); ?>assets/plugins/select2/select2.min.js" type="text/javascript"></script>
+        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
+
+
+        <!-- CORE TEMPLATE JS - START -->
+        <script src="<?php echo base_url(); ?>assets/js/scripts.js" type="text/javascript"></script>
+        <!-- END CORE TEMPLATE JS - END -->
+        <!--        <script src="<?php echo base_url(); ?>assets/sesion.js"  type="text/javascript"></script>-->
+        <script src="<?php echo base_url(); ?>application/libraries/sesion.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var consultaRunt = '<?php
+                                if (isset($consultaRunt)) {
+                                    echo $consultaRunt;
+                                } else {
+                                    echo '0';
+                                }
+                                ?>';
+            var activoSicov = '<?php
+                                if (isset($activoSicov)) {
+                                    echo $activoSicov;
+                                } else {
+                                    echo '0';
+                                }
+                                ?>';
+            var ipSicovAlternativo = '<?php
+                                        if (isset($ipSicovAlternativo)) {
+                                            echo $ipSicovAlternativo;
+                                        } else {
+                                            echo '0';
+                                        }
+                                        ?>';
+            var sicovModoAlternativo = '<?php
+                                        if (isset($sicovModoAlternativo)) {
+                                            echo $sicovModoAlternativo;
+                                        } else {
+                                            echo '0';
+                                        }
+                                        ?>';
+            var ipSicov = '<?php
+                            if (isset($ipSicov)) {
+                                echo $ipSicov;
+                            } else {
+                                echo '0';
+                            }
+                            ?>';
+            var usuarioSicov = '<?php
+                                if (isset($usuarioSicov)) {
+                                    echo $usuarioSicov;
+                                } else {
+                                    echo '0';
+                                }
+                                ?>';
+            var claveSicov = '<?php
+                                if (isset($claveSicov)) {
+                                    echo $claveSicov;
+                                } else {
+                                    echo '0';
+                                }
+                                ?>';
+            var sicov = '<?php
+                            if (isset($sicov)) {
+                                echo $sicov;
+                            } else {
+                                echo '0';
+                            }
+                            ?>';
+            var ipLocal = '<?php
+                            echo base_url();
+                            ?>';
+            var dominio = ""
+            $(document).ready(function() {
+
+                var placa = '<?php echo $this->session->userdata('numero_placa'); ?>';
+                var text = new XMLHttpRequest();
+                text.open("GET", ipLocal + "system/dominio.dat", false);
+                text.send(null);
+                dominio = text.responseText;
+                var placa2 = localStorage.getItem('placa');
+                if (placa !== '') {
+                    localStorage.removeItem('placa');
+                    setAtributoVeh('numero_placa', placa);
+                    buscarVehiculo();
+                } else if (placa2 !== null && placa2 !== '') {
+                    console.log('placa2')
+                    setAtributoVeh('numero_placa', placa2);
+                    buscarVehiculo();
+
+                } else {
+                    $("#sel_tipo_vehiculo").modal();
+                }
+                if (dominio == 'cdamicarrera.tecmmas.com' || dominio == 'cdatecmmas.tecmmas.com') {
+                    console.log(dominio)
+                    document.getElementById("inputEmpresa").style.display = '';
+                }
+
+
+            });
+
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                customClass: {
+                    popup: 'custom-toast-popup'
+                },
+                didOpen: (toast) => {
+                    toast.onmouseenter = Swal.stopTimer;
+                    toast.onmouseleave = Swal.resumeTimer;
+                }
+            });
+
+            // Agrega estos estilos CSS al head
+            $('<style>')
+                .prop('type', 'text/css')
+                .html(`
+        .custom-toast-popup {
+            z-index: 99999 !important;
+        }
+        .swal2-container {
+            z-index: 99999 !important;
+        }
+        .swal2-toast-shown .swal2-container {
+            position: fixed;
+            top: 70px !important; /* Ajusta según la altura de tu header */
+            right: 20px !important;
+        }
+    `)
+                .appendTo('head');
+
+            $("#cancel-modal-vehiculo").click(function() {
+                location.reload();
+            })
+
+            function ingresarPlaca() {
+                document.getElementById("sel-intro-vehiculo").style.display = 'none';
+                document.getElementById("div-buscar-placa").style.display = '';
+                $("#btn-save-configuracion").html("<button class='btn btn-success' type='button' onclick='IngresoConPlaca()'>Aceptar</button>")
+            }
+
+            function selVewhiculo() {
+                document.getElementById("sel-intro-vehiculo").style.display = 'none';
+                document.getElementById("div-selvehiculo").style.display = '';
+                document.getElementById("div-selvehiculo").style.display = 'relative';
+                $("#btn-save-configuracion").html("<button class='btn btn-success' type='button' onclick='IngresoConSelVehiculo()'>Aceptar</button>")
+            }
+
+            function IngresoConPlaca() {
+                var placa = $("#placaIngresada").val();
+                if (placa == null || placa == "") {
+                    document.getElementById("mensajeModalVehiculo").style.display = '';
+                    $("#mensajeModalVehiculo").text('Ingrese la placa');
+                } else {
+                    document.getElementById("mensajeModalVehiculo").style.display = 'none';
+                    $("#cierre-modal").click();
+                    $('#numero_placa').val(placa.toString().toUpperCase());
+                    buscarVehiculo();
+                }
+            }
+
+            function IngresoConSelVehiculo() {
+                var tipoVehiculo = $('#select-tipovehiculo option:selected').attr("value");
+                console.log(tipoVehiculo);
+                if (tipoVehiculo == null || tipoVehiculo == "") {
+                    document.getElementById("mensajeModalVehiculo").style.display = '';
+                    $("#mensajeModalVehiculo").text('Seleccione el tipo vehiculo.');
+                } else {
+                    $("#cierre-modal").click();
+                    document.getElementById("mensajeModalVehiculo").style.display = 'none';
+                    switch (tipoVehiculo) {
+                        case '1':
+                            setAtributoVehSelect('tipo_vehiculo', "<option value='1'>LIVIANO</option>");
+                            $("#labelScooter").text('Convertidor Catalitico');
+                            break;
+                        case '2':
+                            document.getElementById("div_taximetro").style.display = 'none';
+                            document.getElementById("div_taximetro").style.position = 'absolute';
+                            setAtributoVehSelect('tipo_vehiculo', "<option value='2'>PESADO</option>");
+                            break;
+
+                        default:
+                            $("#labelScooter").text('Scooter');
+                            setAtributoVehSelect('tipo_vehiculo', "<option value='3'>MOTO</option>");
+                            //document.getElementById("div_potencia").style.display = 'none';
+                            //document.getElementById("div_potencia").style.position = 'absolute';
+                            //                                                        document.getElementById("div_cilindros").style.display = 'none';
+                            //                                                        document.getElementById("div_cilindros").style.position = 'absolute';
+                            document.getElementById("div_blindaje").style.display = 'none';
+                            document.getElementById("div_blindaje").style.position = 'absolute';
+                            document.getElementById("div_polarizado").style.display = 'none';
+                            document.getElementById("div_polarizado").style.position = 'absolute';
+                            document.getElementById("div_conversion_gas").style.display = 'none';
+                            document.getElementById("div_conversion_gas").style.position = 'absolute';
+                            document.getElementById("div_fecha_certificado_gas").style.display = 'none';
+                            document.getElementById("div_fecha_certificado_gas").style.position = 'absolute';
+                            document.getElementById("div_taximetro").style.display = 'none';
+                            document.getElementById("div_taximetro").style.position = 'absolute';
+                            break;
+                    }
+                    document.getElementById("mensajeModalVehiculo").style.display = 'none';
+                }
+            }
+
+
+
+            var buscarColores = function(tipo) {
+                var color = $('#textoColor').val();
+                document.getElementById('listaColores').innerHTML = "";
+                if ((color.toString().length > 2 && tipo === 'a') || tipo === 'e') {
+                    $('#mensaje').text('BUSCANDO');
+                    var data = {
+                        textocolor: color
+                    };
+                    var url = "";
+                    if (tipo === 'a') {
+                        url = '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/getColores';
+                    } else {
+                        url = '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/getColoresE';
+                    }
+                    $.ajax({
+                        url: url,
+                        data: data,
+                        type: 'post',
+                        success: function(rta) {
+                            document.getElementById('listaColores').innerHTML = rta;
+                            $('#mensaje').text('FINALIZADO');
+                        }
+                    });
+                } else {
+                    $('#mensaje').text('MÍNIMO 3 CARACTERES PARA INICIAR LA BUSQUEDA');
+                }
+            };
+            var buscarCarroceria = function(tipo) {
+                var carroceria = $('#textoCarroceria').val();
+                document.getElementById('listaCarrocerias').innerHTML = "";
+                if ((carroceria.toString().length > 2 && tipo === 'a') || tipo === 'e') {
+                    $('#mensajeC').text('BUSCANDO');
+                    var data = {
+                        textocarroceria: carroceria
+                    };
+                    var url = "";
+                    if (tipo === 'a') {
+                        url = '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/getCarrocerias';
+                    } else {
+                        url = '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/getCarroceriasE';
+                    }
+                    $.ajax({
+                        url: url,
+                        data: data,
+                        type: 'post',
+                        success: function(rta) {
+                            document.getElementById('listaCarrocerias').innerHTML = rta;
+                            $('#mensajeC').text('FINALIZADO');
+                        }
+                    });
+                } else {
+                    $('#mensajeC').text('MÍNIMO 3 CARACTERES PARA INICIAR LA BUSQUEDA');
+                }
+            };
+            var buscarMarcas = function(tipo) {
+                var marca = $('#textoMarca').val();
+                // console.log(marca)
+                document.getElementById('listaMarcas').innerHTML = "";
+                if ((marca.toString().length > 2 && tipo === 'a') || tipo === 'e') {
+                    $('#mensajeM').text('BUSCANDO');
+                    // var data = {
+                    //     textomarca: marca
+                    // };
+
+                    var url = "";
+                    if (tipo === 'a') {
+                        url = "http://197.175.153.160.host.secureserver.net:3300/marcas/buscarxnombre/" + marca;
+                        // url = '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/getMarcas';
+                    } else {
+                        url = "http://197.175.153.160.host.secureserver.net:3300/marcas/buscarxnombreexacto/" + marca;
+                        // url = '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/getMarcasE';
+                    }
+                    $.ajax({
+                        url: url,
+                        //data: data,
+                        type: 'get',
+                        success: function(rta) {
+                            // Procesar solo si rta.data no está vacío
+                            if (rta.data && Array.isArray(rta.data) && rta.data.length > 0) {
+                                let html = '';
+                                rta.data.forEach(function(item) {
+                                    // console.log(item.id)
+                                    if (item && item.nombre && item.nombre !== "") {
+                                        // html += '<tr><td><button class="btn btn-success" onclick="asignarMarca({id: \'' + item.id + '\', value: \'' + item.nombre + '\'})">' + item.nombre + '</button></td></tr>';
+                                        html += "<tr><td><input id='" + item.id + "' class='btn btn-block bot_azul' onclick='asignarMarca(this)' type='button'  style='height: 40px;padding: 5px;width:420px'   value='" + item.nombre + "'  data-dismiss='modal'/><td></tr>";
+                                    }
+                                });
+                                document.getElementById('listaMarcas').innerHTML = html;
+                            } else {
+                                document.getElementById('listaMarcas').innerHTML = '<tr><td>No se encontraron resultados.</td></tr>';
+                            }
+
+                            // document.getElementById('listaMarcas').innerHTML = rta.data;
+                            // $('#mensajeM').text('FINALIZADO');
+                        },
+                        error: function(res) {
+                            console.log(res.responseText)
+                        },
+                        complete: function() {
+                            $('#mensajeM').text('FINALIZADO');
+                        }
+                    });
+                } else {
+                    $('#mensajeM').text('MÍNIMO 3 CARACTERES PARA INICIAR LA BUSQUEDA');
+                }
+            };
+
+
+
+            var buscarLineas = function(tipo) {
+                var linea = $('#textoLinea').val();
+                document.getElementById('listaLineas').innerHTML = "";
+                if ((linea.toString().length > 2 && tipo === 'a') || tipo === 'e') {
+                    $('#mensajeL').text('BUSCANDO');
+                    // var data = {
+                    //     textolinea: linea,
+                    //     codigo: idmarca
+                    // };
+                    var url = "";
+                    if (tipo === 'a') {
+                        url = "http://197.175.153.160.host.secureserver.net:3300/lineas/buscarxnombre/" + linea +"?page=1&limit=1121";
+                        // url = '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/getMarcas';
+                    } else {
+                        url = "http://197.175.153.160.host.secureserver.net:3300/lineas/buscarxnombreexacto/" + linea +"?page=1&limit=1121";
+                        // url = '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/getMarcasE';
+                    }
+                
+
+                    $.ajax({
+                        url: url,
+                        //data: data,
+                        type: 'get',
+                        success: function(rta) {
+                            // Procesar solo si rta.data no está vacío
+                            if (rta.data && Array.isArray(rta.data) && rta.data.length > 0) {
+                                let html = '';
+                                rta.data.forEach(function(item) {
+                                    console.log("lineas")
+                                    console.log(item.marcaFk.id)
+                                    console.log($("#idmarcarunt").val())
+                                    console.log({rta})
+                                    if($("#idmarcarunt").val() != item.marcaFk.id){
+                                        return;
+                                    }
+                                    if (item && item.nombre && item.nombre !== "") {
+                                        // html += '<tr><td><button class="btn btn-success" onclick="asignarMarca({id: \'' + item.id + '\', value: \'' + item.nombre + '\'})">' + item.nombre + '</button></td></tr>';
+                                        html += "<tr><td><input id='" + item.id + "' title='" + item.id + "_" + item.nombre + "_" + item.codigo + "_" + item.marca + "_" + item.marcaFk.nombre + "' class='btn btn-block bot_azul' onclick='asignarLinea(this)' type='button' style='height: 40px;padding: 5px;width:420px' value='" + item.nombre + "' data-dismiss='modal'/><td></tr>";
+                                    }
+                                });
+                                document.getElementById('listaLineas').innerHTML = html;
+                            } else {
+                                document.getElementById('listaLineas').innerHTML = '<tr><td>No se encontraron resultados.</td></tr>';
+                            }
+
+                            // document.getElementById('listaMarcas').innerHTML = rta.data;
+                            // $('#mensajeM').text('FINALIZADO');
+                        },
+                        error: function(res) {
+                            console.log(res.responseText)
+                        },
+                        complete: function() {
+                            $('#mensajeM').text('FINALIZADO');
+                        }
+                    });
+                } else {
+                    $('#mensajeL').text('MÍNIMO 3 CARACTERES PARA INICIAR LA BUSQUEDA');
+                }
+            };
+
+            var asignarColor = function(e) {
+                document.getElementById('listaColores').innerHTML = "";
+                $('#idcolorrunt').val(e.id);
+                $('#idcolor').val(e.value);
+                $("#colorModal").modal('hide');
+            };
+            var asignarMarca = function(e) {
+
+                document.getElementById('listaMarcas').innerHTML = "";
+                $('#migrateLineaMarca').val(1);
+                idmarca = e.id;
+                $('#idmarcarunt').val(e.id);
+                $('#idmarca').val(e.value);
+                $("#idlinearunt").val('');
+                $("#idlinea").val('');
+                $("#marcaModal").modal('hide');
+            };
+            var asignarCarroceria = function(e) {
+                document.getElementById('listaCarrocerias').innerHTML = "";
+                $('#idcarroceriarunt').val(e.id);
+                $('#diseno').val(e.value);
+                $("#carroceriaModal").modal('hide');
+            };
+
+            var arrayInfoLineasMarcas = [];
+            var asignarLinea = function(e) {
+                arrayInfoLineasMarcas = [];
+                arrayInfoLineasMarcas.push(e.title);
+
+                document.getElementById('listaLineas').innerHTML = "";
+                idlinea = e.id;
+
+                $('#idlinearunt').val(e.id);
+                $('#idlinea').val(e.value);
+                $("#lineaModal").modal('hide');
+            };
+            var vehiculo = new Object();
+            var escliente = function(valor) {
+                if (valor === "SI") {
+                    document.getElementById("buscar_cliente").disabled = true;
+                    setAtributoVehPer('idcliente', vehiculo.idpropietario);
+                    setAtributoVehPer('documento_cliente', vehiculo.documento_propietario);
+                    setAtributoVehPer('nombre_cliente', vehiculo.nombre_propietario);
+                    setAtributoVehPer('apellido_cliente', vehiculo.apellido_propietario);
+                    setAtributoVehPer('telefono_cliente', vehiculo.telefono_propietario);
+                } else {
+                    document.getElementById("buscar_cliente").disabled = false;
+                    setAtributoVehPer('idcliente', '');
+                    setAtributoVehPer('documento_cliente', '');
+                    setAtributoVehPer('nombre_cliente', '');
+                    setAtributoVehPer('apellido_cliente', '');
+                    setAtributoVehPer('telefono_cliente', '');
+                }
+            };
+            var buscarVehiculo = function() {
+                vehiculo = new Object();
+                limpiarFormulario();
+                $('#numero_placa').val($('#numero_placa').val().toString().toUpperCase());
+                if (cumple('numero_placa', 'PLACA')) {
+                    habilitarComponente('numero_placa', false);
+                    getVehiculo($("#numero_placa").val());
+                    if (vehiculo.tipo_vehiculo !== undefined) {
+                        if (vehiculo.tipo_vehiculo === '<option value="1">LIVIANO</option>') {
+                            $('#select-tipovehiculo').html("<option value='1'>LIVIANO</option>");
+                            //                                                    $('#idclase').html("<option value='1'>AUTOMOVIL</option>");
+                            IngresoConSelVehiculo();
+                        } else if (vehiculo.tipo_vehiculo === '<option value="2">PESADO</option>') {
+                            $('#select-tipovehiculo').html("<option value='2'>PESADO</option>");
+                            //                                                    $('#idclase').html("<option value='1'>AUTOMOVIL</option>");
+                            IngresoConSelVehiculo();
+                        } else {
+                            $('#select-tipovehiculo').html("<option value='3'>MOTO</option>");
+                            //                                                    $('#idclase').html("<option value='10'>MOTOCICLETA</option>");
+                            IngresoConSelVehiculo();
+                        }
+                    }
+
+                    //                                                var idClase = getIdClase(clase);
+                    //                                                ve.idclase = "<option value='" + idClase + "'>" + clase + "</option>";
+
+                    //  console.log("desdevehiculo:", vehiculo);
+                    console.log("idlinea: ", vehiculo.idlinea);
+                    console.log("idlineaRUNT: ", vehiculo.idlineaRUNT);
+                    console.log("idMarca: ", vehiculo.idmarca);
+                    console.log("idmarcaRUNT: ", vehiculo.idmarcaRUNT);
+                    console.log("migrateLineaMarca: ", vehiculo.migrateLineaMarca);
+                    if (vehiculo.numero_placa !== undefined) {
+
+                        //                                                    if (consultaRunt === '1' && activoSicov === '1' && sicov === 'CI2') {
+                        //                                                        vehiculo = consultarRuntxCi2($("#numero_placa").val(), vehiculo);
+                        //                                                    }
+                        //                                                    if (consultaRunt === '1' && activoSicov === '1' && sicov === 'INDRA') {
+                        //                                                        vehiculo = consultaRuntxIndra($("#numero_placa").val(), vehiculo);
+                        //                                                    }
+
+                        setAtributoVehSelect('idclase', vehiculo.idclase);
+                        setAtributoVehSelect('idservicio', vehiculo.idservicio);
+                        setAtributoVehSelect('idcombustible', vehiculo.idcombustible);
+                        setAtributoVeh('idcolorrunt', vehiculo.idcolorrunt);
+                        setAtributoVeh('idmarca', vehiculo.idmarca);
+                        setAtributoVeh('idmarcarunt', vehiculo.idmarcaRUNT);
+                        habilitarComponente('idmarca', false);
+                        setAtributoVeh('idcolor', vehiculo.idcolor);
+                        habilitarComponente('idcolor', false);
+                        setAtributoVeh('idlinearunt', vehiculo.idlineaRUNT);
+                        idlinea = vehiculo.idlineaRUNT;
+                        setAtributoVeh('idlinea', vehiculo.idlinea);
+                        habilitarComponente('idlinea', false);
+                        setAtributoVeh('idcarroceriarunt', vehiculo.idcarroceriarunt);
+                        setAtributoVeh('diseno', vehiculo.diseno);
+                        habilitarComponente('diseno', false);
+                        setAtributoVeh('ano_modelo', vehiculo.ano_modelo);
+                        setAtributoVeh('numero_serie', vehiculo.numero_serie);
+                        setAtributoVeh('numero_motor', vehiculo.numero_motor);
+                        setAtributoVeh('numero_vin', vehiculo.numero_vin);
+                        setAtributoVeh('potencia_motor', vehiculo.potencia_motor);
+                        setAtributoVeh('cilindraje', vehiculo.cilindraje);
+                        setAtributoVeh('numero_tarjeta_propiedad', vehiculo.numero_tarjeta_propiedad);
+                        setAtributoVeh('kilometraje', vehiculo.kilometraje);
+                        setAtributoVeh('nombre_empresa', vehiculo.nombre_empresa);
+                        setAtributoVehSelect('tipo_vehiculo', vehiculo.tipo_vehiculo);
+                        var tipoVehiculo = $('#select-tipovehiculo option:selected').attr("value");
+                        if (tipoVehiculo === '3') {
+                            $("#labelScooter").text('Scooter');
+                        } else {
+                            $("#labelScooter").text('Convertidor Catalitico');
+                        }
+                        setAtributoVeh('fecha_matricula', vehiculo.fecha_matricula);
+                        setAtributoVehSelect('numejes', vehiculo.numejes);
+                        setAtributoVehSelect('numero_llantas', vehiculo.numero_llantas);
+                        setAtributoVehSelect('tiempos', vehiculo.tiempos);
+                        setAtributoVeh('numsillas', vehiculo.numsillas);
+                        setAtributoVeh('num_pasajeros', vehiculo.num_pasajeros);
+                        setAtributoVehSelect('cilindros', vehiculo.cilindros);
+                        setAtributoVehSelect('ensenanza', vehiculo.ensenanza);
+                        setAtributoVehSelect('taximetro', vehiculo.taximetro);
+                        setAtributoVehSelect('idpais', vehiculo.idpais);
+                        setAtributoVehSelect('numero_exostos', vehiculo.numero_exostos);
+                        setAtributoVehSelect('scooter', vehiculo.scooter);
+                        setAtributoVehSelect('blindaje', vehiculo.blindaje);
+                        setAtributoVehSelect('polarizado', vehiculo.polarizado);
+                        setAtributoVeh('fecha_vencimiento_soat', vehiculo.fecha_vencimiento_soat);
+                        setAtributoVehSelect('chk_3', vehiculo.chk_3);
+                        setAtributoVeh('fecha_final_certgas', vehiculo.fecha_final_certgas);
+                        setAtributoVehPer('idpropietario', vehiculo.idpropietario);
+                        setAtributoVehPer('documento_propietario', vehiculo.documento_propietario);
+                        setAtributoVehPer('nombre_propietario', vehiculo.nombre_propietario);
+                        setAtributoVehPer('apellido_propietario', vehiculo.apellido_propietario);
+                        setAtributoVehPer('telefono_propietario', vehiculo.telefono_propietario);
+                        setAtributoVehPer('idcliente', vehiculo.idcliente);
+                        setAtributoVehPer('documento_cliente', vehiculo.documento_cliente);
+                        setAtributoVehPer('nombre_cliente', vehiculo.nombre_cliente);
+                        setAtributoVehPer('apellido_cliente', vehiculo.apellido_cliente);
+                        setAtributoVehPer('telefono_cliente', vehiculo.telefono_cliente);
+                        document.getElementById('escliente').innerHTML = "";
+                        if (vehiculo.idcliente === vehiculo.idpropietario) {
+                            document.getElementById('escliente').innerHTML += "<option value='SI'>SI</option>";
+                            document.getElementById('escliente').innerHTML += "<option value='NO'>NO</option>";
+                            habilitarComponente('buscar_cliente', false);
+                        } else {
+                            document.getElementById('escliente').innerHTML += "<option value='NO'>NO</option>";
+                            document.getElementById('escliente').innerHTML += "<option value='SI'>SI</option>";
+                            habilitarComponente('buscar_cliente', true);
+                        }
+
+                    } else {
+
+                        var tipoVehiculo = $('#select-tipovehiculo option:selected').attr("value");
+                        if (tipoVehiculo === '3') {
+                            $("#labelScooter").text('Scooter');
+                        } else {
+                            $("#labelScooter").text('Convertidor Catalitico');
+                        }
+                        //                                                    $("#labelScooter").text('CONVERTIDOR CATALITICO');
+                        if (consultaRunt === '1' && activoSicov === '1' && sicov === 'CI2') {
+                            vehiculo = consultarRuntxCi2($("#numero_placa").val(), vehiculo);
+                            console.log("vehiculoCI2:", vehiculo);
+                            setAtributoVehSelect('idclase', vehiculo.idclase);
+                            setAtributoVehSelect('idservicio', vehiculo.idservicio);
+                            setAtributoVehSelect('idcombustible', vehiculo.idcombustible);
+                            setAtributoVeh('idmarcarunt', vehiculo.idmarcarunt);
+                            
+                            setAtributoVeh('idmarca', vehiculo.idmarca);
+                            setAtributoVeh('idlinearunt', vehiculo.idlinearunt);
+                            setAtributoVeh('idlinea', vehiculo.idlinea);
+                            setAtributoVeh('idcolorrunt', vehiculo.idcolorrunt);
+                            setAtributoVeh('idcolor', vehiculo.idcolor);
+                            setAtributoVeh('ano_modelo', vehiculo.ano_modelo);
+                            setAtributoVeh('numero_serie', vehiculo.numero_serie);
+                            setAtributoVeh('numero_motor', vehiculo.numero_motor);
+                            setAtributoVeh('numero_vin', vehiculo.numero_vin);
+                            setAtributoVeh('fecha_matricula', vehiculo.fecha_matricula);
+                            setAtributoVeh('numsillas', vehiculo.numsillas);
+                            setAtributoVeh('num_pasajeros', vehiculo.num_pasajeros);
+                            setAtributoVehSelect('blindaje', vehiculo.blindaje);
+                            setAtributoVeh('fecha_vencimiento_soat', vehiculo.fecha_vencimiento_soat);
+                            setAtributoVeh('cilindraje', '');
+                            setAtributoVeh('numero_tarjeta_propiedad', '');
+                            setAtributoVeh('idcarroceriarunt', '0');
+                            setAtributoVeh('diseno', 'SIN CARROCERIA');
+                        } else if (consultaRunt === '1' && activoSicov === '1' && sicov === 'INDRA') {
+                            vehiculo = consultaRuntxIndra($("#numero_placa").val(), vehiculo);
+                            setAtributoVehSelect('idclase', vehiculo.idclase);
+                            setAtributoVehSelect('idservicio', vehiculo.idservicio);
+                            setAtributoVehSelect('idcombustible', vehiculo.idcombustible);
+                            setAtributoVeh('idmarcarunt', vehiculo.idmarcarunt);
+                            setAtributoVeh('idmarca', vehiculo.idmarca);
+                            setAtributoVeh('idlinearunt', vehiculo.idlinearunt);
+                            setAtributoVeh('idlinea', vehiculo.idlinea);
+                            setAtributoVeh('idcolorrunt', vehiculo.idcolorrunt);
+                            setAtributoVeh('idcolor', vehiculo.idcolor);
+                            setAtributoVeh('cilindraje', vehiculo.cilindraje);
+                            setAtributoVeh('numero_tarjeta_propiedad', vehiculo.numero_tarjeta_propiedad);
+                            setAtributoVeh('ano_modelo', vehiculo.ano_modelo);
+                            setAtributoVeh('numero_serie', vehiculo.numero_serie);
+                            setAtributoVeh('numero_motor', vehiculo.numero_motor);
+                            setAtributoVeh('numero_vin', vehiculo.numero_vin);
+                            setAtributoVeh('fecha_matricula', vehiculo.fecha_matricula);
+                            setAtributoVeh('numsillas', vehiculo.numsillas);
+                            setAtributoVeh('num_pasajeros', vehiculo.num_pasajeros);
+                            setAtributoVehSelect('blindaje', vehiculo.blindaje);
+                            setAtributoVehSelect('polarizado', vehiculo.polarizado);
+                            setAtributoVeh('idcarroceriarunt', vehiculo.idcarroceriarunt);
+                            setAtributoVeh('diseno', vehiculo.diseno);
+                            setAtributoVeh('fecha_vencimiento_soat', vehiculo.fecha_vencimiento_soat);
+                        } else {
+                            setAtributoVehSelect('idclase', "<option value='1'>AUTOMOVIL</option>");
+                            setAtributoVeh('idmarcarunt', "0");
+                            setAtributoVeh('idmarca', "SIN MARCA");
+                            setAtributoVehSelect('idservicio', "<option value='3'>PARTICULAR</option>");
+                            setAtributoVehSelect('idcombustible', "<option value='2'>GASOLINA</option>");
+                            setAtributoVeh('idcolorrunt', '0');
+                            setAtributoVeh('idcolor', "SIN COLOR");
+                            setAtributoVeh('numero_tarjeta_propiedad', '');
+                            setAtributoVeh('cilindraje', '');
+                            setAtributoVeh('ano_modelo', '');
+                            setAtributoVeh('numero_serie', '');
+                            setAtributoVeh('numero_motor', '');
+                            setAtributoVeh('numero_vin', '');
+                            setAtributoVeh('fecha_matricula', '');
+                            setAtributoVeh('numsillas', "5");
+                            setAtributoVeh('num_pasajeros', "4");
+                            setAtributoVehSelect('blindaje', "<option value='0'>NO</option>");
+                            setAtributoVehSelect('polarizado', "<option value='0'>NO</option>");
+                            setAtributoVeh('fecha_vencimiento_soat', '');
+                        }
+                        setAtributoVeh('potencia_motor', '');
+                        setAtributoVeh('kilometraje', '');
+                        setAtributoVehSelect('tipo_vehiculo', "<option value='1'>LIVIANO</option>");
+                        setAtributoVehSelect('numejes', "<option value='2'>2</option>");
+                        setAtributoVehSelect('numero_llantas', "<option value='4'>4</option>");
+                        setAtributoVehSelect('tiempos', "<option value='4'>4</option>");
+                        setAtributoVehSelect('cilindros', "<option value='1'>1</option>");
+                        setAtributoVehSelect('ensenanza', "<option value='0'>NO</option>");
+                        setAtributoVehSelect('taximetro', "<option value='0'>NO</option>");
+                        setAtributoVehSelect('idpais', "<option value='90'>COLOMBIA</option>");
+                        setAtributoVehSelect('numero_exostos', "<option value='1'>1</option>");
+                        setAtributoVehSelect('scooter', "<option value='0'>NO</option>");
+                        setAtributoVehSelect('chk_3', "<option value='NA'>NO APLICA</option>");
+                        setAtributoVeh('fecha_final_certgas', '');
+                        setAtributoVehPer('idpropietario', '');
+                        setAtributoVehPer('documento_propietario', '');
+                        setAtributoVehPer('nombre_propietario', '');
+                        setAtributoVehPer('apellido_propietario', '');
+                        setAtributoVehPer('telefono_propietario', '');
+                        setAtributoVehPer('idcliente', '');
+                        setAtributoVehPer('documento_cliente', '');
+                        setAtributoVehPer('nombre_cliente', '');
+                        setAtributoVehPer('apellido_cliente', '');
+                        setAtributoVehPer('telefono_cliente', '');
+                        document.getElementById('escliente').innerHTML = "";
+                        document.getElementById('escliente').innerHTML += "<option value='SI'>SI</option>";
+                        document.getElementById('escliente').innerHTML += "<option value='NO'>NO</option>";
+                        habilitarComponente('buscar_cliente', false);
+                        habilitarComponente('idcolor', false);
+                        habilitarComponente('idmarca', false);
+                        habilitarComponente('idlinea', false);
+                        habilitarComponente('diseno', false);
+                    }
+                    habilitarComponente('btncarroceria', true);
+                    habilitarComponente('btnlinea', true);
+                    habilitarComponente('btnmarca', true);
+                    habilitarComponente('btncolor', true);
+                    habilitarComponente('btnBuscarPropietario', true);
+                    habilitarComponente('escliente', true);
+                    habilitarComponente('btnGuardar', true);
+                    habilitarComponente('btnGuardarNuevo', true);
+                    habilitarComponente('btnGuardarFinalizar', true);
+
+                    //validar si migro a linea y marca
+
+                    setAtributoVehPer('migrateLineaMarca', vehiculo.migrateLineaMarca);
+                }
+            };
+
+            var consultaRuntxIndra = function(placa, ve) {
+                data = {
+                    placa: placa,
+                    extranjero: $("#extranjero").val(),
+                    ip: ipSicov
+                };
+                $.ajax({
+                    url: '<?php echo base_url() ?>index.php/OFCConsultarRunt/ConsultarXIndra',
+                    data: data,
+                    type: 'post',
+                    async: false,
+                    success: function(respuesta) {
+                        var v = JSON.parse(respuesta);
+                        ve.numero_placa = placa;
+                        if (v.codRespuesta === 1) {
+                            var servicio = v.vehRespuesta.TipoServicio.toString().toUpperCase();
+                            var idServicio = 3;
+                            switch (servicio) {
+                                case "PARTICULAR":
+                                    idServicio = 3;
+                                    break;
+                                case "PÚBLICO":
+                                    idServicio = 2;
+                                    break;
+                                case "PUBLICO":
+                                    idServicio = 2;
+                                    break;
+                                case "DIPLOMÁTICO":
+                                    idServicio = 4;
+                                    break;
+                                case "DIPLOMATICO":
+                                    idServicio = 4;
+                                    break;
+                                case "OFICIAL":
+                                    idServicio = 1;
+                                    break;
+                                case "ESPECIALRNMA":
+                                    idServicio = 7;
+                                    break;
+                                default:
+                                    idServicio = 3;
+                                    break;
+                            }
+                            ve.idservicio = "<option value='" + idServicio + "'>" + servicio + "</option>";
+                            var clase = v.vehRespuesta.Clase.toString().toUpperCase();
+                            var idClase = getIdClase(clase);
+                            ve.idclase = "<option value='" + idClase + "'>" + clase + "</option>";
+                            ve.numero_tarjeta_propiedad = v.vehRespuesta.Licencia;
+                            ve.idmarca = v.vehRespuesta.Marca.toString().toUpperCase();
+                            ve.idmarcarunt = v.vehRespuesta.CodigoMarca.toString().toUpperCase();
+                            ve.idlinea = v.vehRespuesta.Linea.toString().toUpperCase();
+                            ve.idlinearunt = getIdLinea(v.vehRespuesta.CodigoLinea, v.vehRespuesta.CodigoMarca); //v.vehRespuesta.CodigoLinea.toString().toUpperCase();
+                            ve.ano_modelo = v.vehRespuesta.Modelo;
+                            ve.numsillas = v.vehRespuesta.CantSillas;
+                            ve.num_pasajeros = v.vehRespuesta.CapacidadPasajeros;
+                            ve.idcolor = v.vehRespuesta.Color.toString().toUpperCase();
+                            ve.idcolorrunt = v.vehRespuesta.CodigoColor.toString().toUpperCase();
+                            if (v.vehRespuesta.Serie == "") {
+                                ve.numero_serie = v.vehRespuesta.Chasis;
+                            } else {
+                                ve.numero_serie = v.vehRespuesta.Serie;
+                            }
+                            ve.numero_motor = v.vehRespuesta.MotorNo;
+                            if (v.vehRespuesta.VIN === '') {
+                                ve.numero_vin = '****';
+                            } else {
+                                ve.numero_vin = v.vehRespuesta.VIN;
+                            }
+                            ve.cilindraje = v.vehRespuesta.Cilindraje.toString().toLocaleUpperCase();
+                            var combustible = v.vehRespuesta.Combustible.toString().toUpperCase();
+                            switch (servicio) {
+                                case "DIESEL":
+                                    idcombustible = 1;
+                                    break;
+                                case "DIÉSEL":
+                                    idcombustible = 1;
+                                    break;
+                                case "GASOLINA":
+                                    idcombustible = 2;
+                                    break;
+                                case "GNV":
+                                    idcombustible = 3;
+                                    break;
+                                case "GAS GASOL":
+                                    idcombustible = 4;
+                                    break;
+                                case "ELECTRICO":
+                                    idcombustible = 5;
+                                    break;
+                                case "HIDROGENO":
+                                    idcombustible = 6;
+                                    break;
+                                case "ETANOL":
+                                    idcombustible = 7;
+                                    break;
+                                case "BIODIESEL":
+                                    idcombustible = 8;
+                                    break;
+                                case "GLP":
+                                    idcombustible = 9;
+                                    break;
+                                case "GASO ELEC":
+                                    idcombustible = 10;
+                                    break;
+                                case "DIES ELEC":
+                                    idcombustible = 11;
+                                    break;
+                                default:
+                                    idcombustible = 2;
+                                    break;
+                            }
+                            ve.idcombustible = "<option value='" + idcombustible + "'>" + combustible + "</option>";
+                            var fechaMat = v.vehRespuesta.FechaMatricula.split('T');
+                            ve.fecha_matricula = fechaMat[0];
+                            ve.num_pasajeros = v.vehRespuesta.CapacidadPasajeros.toString().toLocaleUpperCase();
+                            ve.numejes = v.vehRespuesta.CantEjes.toString().toLocaleUpperCase();
+                            if (v.vehRespuesta.Blindado === 'NO' || v.vehRespuesta.Blindado === '') {
+                                ve.blindaje = "<option value='0'>NO</option>";
+                            } else {
+                                ve.blindaje = "<option value='1'>SI</option>";
+                            }
+                            var FechaSoat = v.vehRespuesta.FechaSoat.split('T');
+                            ve.fecha_vencimiento_soat = FechaSoat[0];
+
+                            if (v.vehRespuesta.VidriosPolarizados === 'NO' || v.vehRespuesta.VidriosPolarizados === 'N') {
+                                ve.polarizado = "<option value='0'>NO</option>";
+                            } else {
+                                ve.polarizado = "<option value='1'>SI</option>";
+                            }
+
+                            ve.diseno = v.vehRespuesta.TipoCarroceria.toString().toUpperCase();
+                            ve.idcarroceriarunt = v.vehRespuesta.CodigoTipoCarroceria.toString().toUpperCase();
+                            // var clase = v.vehRespuesta.Marca.toString().toUpperCase();
+                            //------------------------------------------------------------------------------
+
+
+
+                            // if (v.vehRespuesta.esEnsenanza === 'NO') {
+                            //     ve.ensenanza = "<option value='0'>NO</option>";
+                            // } else {
+                            //     ve.ensenanza = "<option value='1'>SI</option>";
+                            // }
+
+                            // if (v.ConsultaRUNTResult.datosCdasRtm === "SI") {
+                            //     $("#modalOtroCda").modal();
+                            // }
+                            //
+                            //                                                        if (v.ConsultaRUNTResult.datosSoat.estado === "NO VIGENTE") {
+                            //                                                            $("#noVigente").modal();
+                            //                                                        }
+                        } else {
+                            ve.idclase = "<option value='1'>AUTOMOVIL</option>";
+                            ve.idmarcarunt = '0';
+                            ve.idmarca = 'SIN MARCA';
+                            ve.idlinearunt = '0';
+                            ve.idlinea = 'SIN LINEA';
+                            ve.idservicio = "<option value='3'>PARTICULAR</option>";
+                            ve.idcombustible = "<option value='2'>GASOLINA</option>";
+                            ve.idcolorrunt = '0';
+                            ve.idcolor = "SIN COLOR";
+                            ve.ano_modelo = '';
+                            ve.numero_serie = '';
+                            ve.numero_motor = '';
+                            ve.numero_vin = '';
+                            ve.fecha_matricula = '';
+                            ve.numsillas = "5";
+                            ve.num_pasajeros = "4";
+                            ve.blindaje = "<option value='0'>NO</option>";
+                            ve.fecha_vencimiento_soat = '';
+                        }
+                    }
+                });
+                return ve;
+            }
+
+            var getIdClase = function(nombre) {
+                var idclase = "1";
+                data = {
+                    nombre: nombre
+                };
+                $.ajax({
+                    url: '<?php echo base_url() ?>index.php/oficina/vehiculo/Cvehiculo/getIdClase',
+                    data: data,
+                    type: 'post',
+                    async: false,
+                    success: function(idclase_) {
+                        idclase = idclase_;
+                    }
+                });
+                return idclase;
+            };
+            var getIdMarca = function(nombre) {
+                var idmarca = "0";
+                data = {
+                    nombre: nombre
+                };
+                $.ajax({
+                    url: '<?php echo base_url() ?>index.php/oficina/vehiculo/Cvehiculo/getIdMarca',
+                    data: data,
+                    type: 'post',
+                    async: false,
+                    success: function(idmarca_) {
+                        idmarca = idmarca_;
+                    }
+                });
+                return idmarca;
+            };
+            var getIdColor = function(nombre) {
+                var idcolor = "0";
+                data = {
+                    nombre: nombre
+                };
+                $.ajax({
+                    url: '<?php echo base_url() ?>index.php/oficina/vehiculo/Cvehiculo/getIdColor',
+                    data: data,
+                    type: 'post',
+                    async: false,
+                    success: function(idcolor_) {
+                        idcolor = idcolor_;
+                    }
+                });
+                return idcolor;
+            };
+            var getIdLinea = function(nombre, idmarca) {
+                var idlinea = "0";
+                data = {
+                    idmarca: idmarca,
+                    nombre: nombre
+                };
+                $.ajax({
+                    url: '<?php echo base_url() ?>index.php/oficina/vehiculo/Cvehiculo/getIdLinea',
+                    data: data,
+                    type: 'post',
+                    async: false,
+                    success: function(idlinea_) {
+                        idlinea = idlinea_;
+                    }
+                });
+                return idlinea;
+            };
+            var consultarRuntxCi2 = function(placa, ve) {
+                data = {
+                    placa: placa,
+                    usuario: usuarioSicov,
+                    clave: claveSicov
+                };
+                $.ajax({
+                    url: '<?php echo base_url() ?>index.php/OFCConsultarRunt/ConsultarXCi2',
+                    data: data,
+                    type: 'post',
+                    async: false,
+                    success: function(respuesta) {
+                        var v = JSON.parse(respuesta);
+                        ve.numero_placa = placa;
+                        if (v.ConsultaRUNTResult.CodigoRespuesta === '0000') {
+                            ve.numero_serie = v.ConsultaRUNTResult.noSerie;
+                            ve.idmarcarunt = v.ConsultaRUNTResult.idMarca;
+                            ve.idmarca = v.ConsultaRUNTResult.marca.toString().toUpperCase();
+                            ve.idlinearunt = v.ConsultaRUNTResult.idLinea;
+                            ve.idlinea = v.ConsultaRUNTResult.linea.toString().toUpperCase();
+                            var idServicio = v.ConsultaRUNTResult.idTipoServicio;
+                            if (v.ConsultaRUNTResult.idTipoServicio === '1') {
+                                idServicio = '3';
+                            } else if (v.ConsultaRUNTResult.idTipoServicio === '3') {
+                                idServicio = '4';
+                            } else if (v.ConsultaRUNTResult.idTipoServicio === '4') {
+                                idServicio = '1';
+                            }
+                            ve.idservicio = "<option value='" + idServicio + "'>" + v.ConsultaRUNTResult.tipoServicio.toString().toUpperCase() + "</option>";
+                            ve.idcolorrunt = v.ConsultaRUNTResult.idColor.toString().toUpperCase();
+                            ve.idcolor = v.ConsultaRUNTResult.color;
+                            ve.ano_modelo = v.ConsultaRUNTResult.modelo;
+                            var idcombustible = v.ConsultaRUNTResult.idTipoCombustible;
+                            if (idcombustible === '1') {
+                                idcombustible = '2';
+                            } else if (idcombustible === '2') {
+                                idcombustible = '3';
+                            } else if (idcombustible === '3') {
+                                idcombustible = '1';
+                            }
+                            ve.idcombustible = "<option value='" + idcombustible + "'>" + v.ConsultaRUNTResult.tipoCombustible.toString().toUpperCase() + "</option>";
+                            ve.idclase = "<option value='" + v.ConsultaRUNTResult.idClaseVehiculo + "'>" + v.ConsultaRUNTResult.claseVehiculo + "</option>";
+                            ve.numero_motor = v.ConsultaRUNTResult.noMotor;
+                            if (v.ConsultaRUNTResult.noVIN === '') {
+                                ve.numero_vin = '****';
+                            } else {
+                                ve.numero_vin = v.ConsultaRUNTResult.noVIN;
+                            }
+                            ve.numsillas = v.ConsultaRUNTResult.capacidadPasajerosSentados;
+                            ve.num_pasajeros = parseInt(v.ConsultaRUNTResult.capacidadPasajerosSentados) - 1;
+                            if (v.ConsultaRUNTResult.blindado === 'NO' || v.ConsultaRUNTResult.blindado === "N") {
+                                ve.blindaje = "<option value='0'>NO</option>";
+                            } else {
+                                ve.blindaje = "<option value='1'>SI</option>";
+                            }
+                            var fechaMat = v.ConsultaRUNTResult.fechaMatricula.split('/');
+                            ve.fecha_matricula = fechaMat[2] + "-" + fechaMat[1] + "-" + fechaMat[0];
+                            if (v.ConsultaRUNTResult.esEnsenanza === 'NO' || v.ConsultaRUNTResult.esEnsenanza === 'N') {
+                                ve.ensenanza = "<option value='0'>NO</option>";
+                            } else {
+                                ve.ensenanza = "<option value='1'>SI</option>";
+                            }
+                            var fechaSoat = v.ConsultaRUNTResult.datosSoat.fechaVencimiento.split('/');
+                            ve.fecha_vencimiento_soat = fechaSoat[2] + "-" + fechaSoat[1] + "-" + fechaSoat[0];
+                            if (v.ConsultaRUNTResult.datosCdasRtm === "SI") {
+                                $("#modalOtroCda").modal();
+                            }
+                            //
+                            //                                                        if (v.ConsultaRUNTResult.datosSoat.estado === "NO VIGENTE") {
+                            //                                                            $("#noVigente").modal();
+                            //                                                        }
+                        } else {
+                            ve.idclase = "<option value='1'>AUTOMOVIL</option>";
+                            ve.idmarcarunt = '0';
+                            ve.idmarca = 'SIN MARCA';
+                            ve.idlinearunt = '0';
+                            ve.idlinea = 'SIN LINEA';
+                            ve.idservicio = "<option value='3'>PARTICULAR</option>";
+                            ve.idcombustible = "<option value='2'>GASOLINA</option>";
+                            ve.idcolorrunt = '0';
+                            ve.idcolor = "SIN COLOR";
+                            ve.ano_modelo = '';
+                            ve.numero_serie = '';
+                            ve.numero_motor = '';
+                            ve.numero_vin = '';
+                            ve.fecha_matricula = '';
+                            ve.numsillas = "5";
+                            ve.num_pasajeros = "4";
+                            ve.blindaje = "<option value='0'>NO</option>";
+                            ve.fecha_vencimiento_soat = '';
+                        }
+                    }
+                });
+                return ve;
+            };
+            var setAtributoVehSelect = function(id, dato) {
+                habilitarComponente(id, true);
+                setItemSelect(id, dato);
+                cargarDatos(id);
+            };
+            var setAtributoVeh = function(id, dato) {
+                habilitarComponente(id, true);
+                $("#" + id).val(dato);
+            };
+            var setAtributoVehPer = function(id, dato) {
+                $("#" + id).val(dato);
+            };
+            var setAtributoVehLin = function(id, dato) {
+                innerCompLimpiar(id);
+                habilitarComponente(id, true);
+                setItemSelect(id, dato);
+                cargarDatosVar(id);
+            };
+            var limpiarFormulario = function() {
+                innerCompLimpiar('idclase');
+                innerCompLimpiar('idmarca');
+                innerCompLimpiar('idlinea');
+                innerCompLimpiar('idservicio');
+                innerCompLimpiar('idcombustible');
+                innerCompLimpiar('diseno');
+                innerCompLimpiar('tipo_vehiculo');
+                innerCompLimpiar('numejes');
+                innerCompLimpiar('numero_llantas');
+                innerCompLimpiar('tiempos');
+                innerCompLimpiar('cilindros');
+                innerCompLimpiar('ensenanza');
+                innerCompLimpiar('taximetro');
+                innerCompLimpiar('idpais');
+                innerCompLimpiar('numero_exostos');
+                innerCompLimpiar('scooter');
+                innerCompLimpiar('blindaje');
+                innerCompLimpiar('polarizado');
+                innerCompLimpiar('chk_3');
+            };
+            var setItemSelect = function(id, valor) {
+                if (valor !== null && valor !== undefined)
+                    innerComp(id, valor);
+            };
+            var cumple = function(id, campo) {
+                var c = true;
+                if ($("#" + id).val() === '') {
+                    document.getElementById("msj" + id).style.color = 'red';
+                    document.getElementById("msj" + id).style.display = 'block';
+                    document.getElementById("msj" + id).style.position = 'relative';
+                    $("#msj" + id).text('El campo ' + campo + ' es obligario');
+                    c = false;
+                } else {
+                    $("#msj" + id).text('');
+                    c = true;
+                    document.getElementById("msj" + id).style.color = 'black';
+                    document.getElementById("msj" + id).style.display = 'none';
+                    document.getElementById("msj" + id).style.position = 'absolute';
+                }
+                return c;
+            };
+            var habilitarComponente = function(id, hab) {
+                if (hab) {
+                    document.getElementById(id).disabled = false;
+                } else {
+                    document.getElementById(id).disabled = true;
+                }
+            };
+            var innerComp = function(id, datos) {
+                //                                            if (id === 'ensenanza') {
+                //                                                console.log("ensenanza: " + datos)
+                //                                            }
+                if (id === 'idcolor')
+                    id = 's2example-1';
+                document.getElementById(id).innerHTML += datos;
+            }
+            var innerCompLimpiar = function(id) {
+
+                //                                    document.getElementById(id).innerHTML = "";
+            };
+            var idmarca = 0;
+            var idlinea = 0;
+            var cargarDatos = function(id) {
+                var funcion = '';
+                switch (id) {
+                    case 'idclase':
+                        funcion = 'getClases';
+                        break;
+                    case 'idmarca':
+                        funcion = 'getMarcas';
+                        break;
+                    case 'idservicio':
+                        funcion = 'getServicios';
+                        break;
+                    case 'idcombustible':
+                        funcion = 'getCombustibles';
+                        break;
+                        //                                    case 'idcolor':
+                        //                                        funcion = 'getColores';
+                        //                                        break;
+                    case 'diseno':
+                        funcion = 'getCarrocerias';
+                        break;
+                    case 'tipo_vehiculo':
+                        funcion = 'getTipo_Vehiculos';
+                        break;
+                    case 'numejes':
+                        funcion = 'getNumejes';
+                        break;
+                    case 'numero_llantas':
+                        funcion = 'getNumllantas';
+                        break;
+                    case 'tiempos':
+                        funcion = 'getTiempos';
+                        break;
+                    case 'cilindros':
+                        funcion = 'getCilindros';
+                        break;
+                    case 'cilindros':
+                        funcion = 'getCilindros';
+                        break;
+                    case 'ensenanza':
+                        funcion = 'getSiNo';
+                        break;
+                    case 'taximetro':
+                        funcion = 'getSiNo';
+                        break;
+                    case 'idpais':
+                        funcion = 'getPaises';
+                        break;
+                    case 'numero_exostos':
+                        funcion = 'getNumExostos';
+                        break;
+                    case 'scooter':
+                        funcion = 'getSiNo';
+                        break;
+                    case 'blindaje':
+                        funcion = 'getSiNo';
+                        break;
+                    case 'polarizado':
+                        funcion = 'getSiNo';
+                        break;
+                    case 'chk_3':
+                        funcion = 'getSiNoNa';
+                        break;
+                    default:
+                        break;
+                }
+                if (id !== 'idcolor')
+                    $.ajax({
+                        url: '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/' + funcion,
+                        type: 'post',
+                        success: function(datos) {
+                            innerComp(id, datos);
+                        }
+                    });
+            };
+            var cargarLineas = function(e) {
+                innerCompLimpiar('idlinea');
+                idmarca = e.value;
+                habilitarComponente('idlinea', true);
+                cargarDatosVar('idlinea');
+            };
+            var cargarDatosVar = function(id) {
+                var funcion = '';
+                var data;
+                switch (id) {
+                    case 'idlinea':
+                        funcion = 'getLineas';
+                        data = {
+                            codigo: idmarca
+                        };
+                        break;
+                    default:
+
+                        break;
+                }
+
+                $.ajax({
+                    url: '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/' + funcion,
+                    type: 'post',
+                    data: data,
+                    success: function(datos) {
+                        innerComp(id, datos);
+                    }
+                });
+            };
+            var getVehiculo = function(numero_placa) {
+                var data = {
+                    numero_placa: numero_placa
+                };
+                $.ajax({
+                    url: '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/buscarVehiculo',
+                    type: 'post',
+                    data: data,
+                    async: false,
+                    success: function(dato) {
+                        // console.log(dato)
+                        if (dato !== '')
+                            vehiculo = JSON.parse(dato);
+                    }
+                });
+            };
+
+
+            var siPropietario = '0';
+
+            var BuscarPropietario = function(e) {
+                if ($('#fecha_vencimiento_soat').val() !== "") {
+                    siPropietario = e.title;
+                    guardarVehiculo();
+                    location.href = '../vehiculo/Cvehiculo/BuscarPropietario';
+                } else {
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'error',
+                        title: 'Campos obligatorios.',
+                        html: 'Antes de buscar el propietario, por favor llene todos los campos del formulario vehiculo.',
+                        showConfirmButton: true,
+                        //                                                    timer: 1500
+                    })
+                    //                                                AlertTecmmas('error', 'Campo obligatorio', 'Fecha vencimiento del SOAT');
+                }
+
+            };
+            $("#btnGuardar").click(function() {
+                localStorage.removeItem('placa');
+                '<?php $this->session->unset_userdata('numero_placa'); ?>'
+            })
+            var guardarNuevo = function() {
+                if ($('#fecha_vencimiento_soat').val() !== "") {
+                    guardarVehiculo();
+                    location.reload();
+                    localStorage.removeItem('placa');
+                } else {
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'error',
+                        title: 'Campo obligatorio.',
+                        html: 'Fecha vencimiento del SOAT.',
+                        showConfirmButton: true,
+                        //                                                    timer: 1500
+                    })
+                    //                                                AlertTecmmas('error', 'Campo obligatorio', 'Fecha vencimiento del SOAT');
+                }
+
+            };
+            var guardarFinalizar = function() {
+                if ($('#fecha_vencimiento_soat').val() !== "") {
+                    guardarVehiculo();
+                    setTimeout(function() {
+                        localStorage.removeItem('placa');
+                        location.href = '../CPrincipal';
+                    }, 2000);
+                    //location.href = '../CPrincipal';
+                } else {
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'error',
+                        title: 'Campo obligatorio.',
+                        html: 'Fecha vencimiento del SOAT.',
+                        showConfirmButton: true,
+                        //                                                    timer: 1500
+                    })
+                    //                                                AlertTecmmas('error', 'Campo obligatorio', 'Fecha vencimiento del SOAT');
+                }
+
+            };
+
+            // $("#idmarcarunt").change(function() {
+            //     console.log("idmarcarunt: " + $("#idmarcarunt").val());
+            //     alert("idmarca: " + $("#idmarca").val());
+            //     $("#idlinea").val("").trigger("change");
+            //     $("#idlinearunt").val("").trigger("change");
+            // });
+
+            // $("#idlinearunt").change(function() {
+            //     $("#idmarca").val("").trigger("change");
+            //     $("#idmarcarunt").val("").trigger("change");
+            // });
+
+            var guardarVehiculo = function() {
+                if (!validarCamposObligatorios()) return;
+
+                var placa = $('#numero_placa').val().trim();
+                localStorage.setItem('placa', placa);
+
+                var veh = crearObjetoVehiculo();
+                var data = {
+                    vehiculo: veh,
+                    sipropietario: siPropietario
+                };
+
+                mostrarMensajeGuardando();
+
+                verificarYGuardarLineasMarcas(data, veh.idlinea);
+            };
+
+            // Funciones auxiliares
+            function validarCamposObligatorios() {
+                if ($('#fecha_vencimiento_soat').val() !== "" &&
+                    $("#idmarca").val() !== "" &&
+                    $("#idlinea").val() !== "") {
+                    return true;
+                }
+
+                let missingFields = [];
+                if ($('#fecha_vencimiento_soat').val() === "") missingFields.push('Fecha vencimiento del SOAT');
+                if ($("#idmarca").val() === "") missingFields.push('Marca');
+                if ($("#idmarcarunt").val() === "") missingFields.push('Código de Marca');
+                if ($("#idlinea").val() === "") missingFields.push('Línea');
+                if ($("#idlinearunt").val() === "") missingFields.push('Código de Línea');
+
+                if (missingFields.length > 0) {
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'error',
+                        title: 'Campos obligatorios.',
+                        html: 'Por favor complete los siguientes campos: ' + missingFields.join(', '),
+                        showConfirmButton: true,
+                    });
+                }
+
+                return false;
+            }
+
+            function crearObjetoVehiculo() {
+                var veh = new Object();
+                veh.numero_placa = $('#numero_placa').val().trim();
+                veh.idclase = $('#idclase').val();
+                veh.migrateLineaMarca = $('#migrateLineaMarca').val();
+                veh.idlinea = $('#idlinearunt').val();
+                veh.idservicio = $('#idservicio').val();
+                veh.idtipocombustible = $('#idcombustible').val();
+                veh.idcolor = $('#idcolorrunt').val();
+                veh.numero_serie = $('#numero_serie').val();
+                veh.ano_modelo = $('#ano_modelo').val();
+                veh.numero_motor = $('#numero_motor').val();
+                veh.numero_vin = $('#numero_vin').val();
+                veh.potencia_motor = $('#potencia_motor').val();
+                veh.cilindraje = $('#cilindraje').val();
+                veh.numero_tarjeta_propiedad = $('#numero_tarjeta_propiedad').val();
+                veh.kilometraje = $('#kilometraje').val();
+                veh.nombre_empresa = $('#nombre_empresa').val();
+                veh.tipo_vehiculo = $('#tipo_vehiculo').val();
+                veh.diseno = $('#idcarroceriarunt').val();
+                veh.fecha_matricula = $('#fecha_matricula').val();
+                veh.numejes = $('#numejes').val();
+                veh.numero_llantas = $('#numero_llantas').val();
+                veh.tiempos = $('#tiempos').val();
+                veh.numsillas = $('#numsillas').val();
+                veh.num_pasajeros = $('#num_pasajeros').val();
+                veh.cilindros = $('#cilindros').val();
+                veh.ensenanza = $('#ensenanza').val();
+                veh.taximetro = $('#taximetro').val();
+                veh.idpais = $('#idpais').val();
+                veh.numero_exostos = $('#numero_exostos').val();
+                veh.scooter = $('#scooter').val();
+                veh.blindaje = $('#blindaje').val();
+                veh.polarizado = $('#polarizado').val();
+                veh.fecha_vencimiento_soat = $('#fecha_vencimiento_soat').val();
+                veh.chk_3 = $('#chk_3').val();
+                veh.fecha_final_certgas = $('#fecha_final_certgas').val();
+                veh.idcliente = $('#idcliente').val();
+                veh.idpropietarios = $('#idpropietario').val();
+                veh.idsoat = 1;
+                veh.diametro_escape = 0;
+                veh.registrorunt = 1;
+
+                return veh;
+            }
+
+            function mostrarMensajeGuardando() {
+                document.getElementById("msjguardar").style.color = 'green';
+                document.getElementById("msjguardar").style.display = 'block';
+                document.getElementById("msjguardar").style.position = 'relative';
+                $("#msjguardar").text('Por favor espere, guardando informacion.');
+            }
+
+            function verificarYGuardarLineasMarcas(data, idlinea) {
+                 console.log($("#idmarcarunt").val())
+                
+                $.ajax({
+                    url: '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/getNewLineas',
+                    type: 'post',
+                    async: false,
+                    mimeType: "application/json",
+                    data: {
+                        idlinea: idlinea,
+                        idmarca: $("#idmarcarunt").val()
+                    },
+                    success: function(rta) {
+                        if (!rta.lineas || !rta.marcas) {
+                            manejarLineasMarcasFaltantes(data, rta);
+                        } else {
+                            guardarVehiculoDirecto(data);
+                        }
+                    },
+                    error: manejarErrorAjax
+                });
+            }
+
+            function manejarLineasMarcasFaltantes(data, rta) {
+                if (arrayInfoLineasMarcas.length === 0) {
+                    Toast.fire({
+                        icon: "info",
+                        title: "Por favor actualice los datos de línea y marca antes de continuar.",
+                        timer: 5000
+                    });
+                    ocultarMensajeGuardando();
+                    return;
+                }
+
+                var dataLineaMarca = arrayInfoLineasMarcas[0].split("_");
+
+                $.ajax({
+                    url: '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/insertNewLineasMarcas',
+                    type: 'post',
+                    async: false,
+                    mimeType: "application/json",
+                    data: {
+                        lineas: rta.lineas,
+                        marcas: rta.marcas,
+                        idlineas: dataLineaMarca[0],
+                        nombre: dataLineaMarca[1],
+                        codigo_ws: dataLineaMarca[2],
+                        idmarcas: dataLineaMarca[3],
+                        nombreMarca: dataLineaMarca[4]
+                    },
+                    success: function(rtaInsert) {
+                        console.log(rtaInsert);
+                        guardarVehiculoDirecto(data);
+                    },
+                    error: manejarErrorAjax
+                });
+            }
+
+            function guardarVehiculoDirecto(data) {
+                $.ajax({
+                    url: '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/guardarVehiculo',
+                    type: 'post',
+                    data: data,
+                    success: function(rta) {
+                        console.log("rta", rta);
+                        ocultarMensajeGuardando();
+                        mostrarExito();
+                    },
+                    error: manejarErrorGuardado
+                });
+            }
+
+            function ocultarMensajeGuardando() {
+                document.getElementById("msjguardar").style.display = 'none';
+                document.getElementById("msjguardar").style.position = 'absolute';
+                $("#msjguardar").text('');
+            }
+
+            function mostrarExito() {
+                Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: 'Guardado exitosamente.',
+                    showConfirmButton: true,
+                    timer: 5000
+                });
+            }
+
+            function manejarErrorAjax(jqXHR, textStatus, errorThrown) {
+                ocultarMensajeGuardando();
+                Swal.fire({
+                    position: 'center',
+                    icon: 'error',
+                    title: 'Error al guardar.',
+                    html: 'Por favor intente nuevamente. <br> ' + jqXHR.responseText,
+                    showConfirmButton: true,
+                });
+            }
+
+            function manejarErrorGuardado(jqXHR, textStatus, errorThrown) {
+                Swal.fire({
+                    position: 'center',
+                    icon: 'error',
+                    title: 'Error al guardar.',
+                    html: 'Por favor intente nuevamente. <br> ' + jqXHR.responseText,
+                    showConfirmButton: true,
+                });
+            }
+
+
+            // var guardarVehiculo = function() {
+            //     // console.log(arrayInfoLineasMarcas);
+            //     // console.log('guardarvehiculo');
+            //     // console.log("idmarca: ", $("#idmarca").val());
+            //     // console.log("idmarcarunt: ", $("#idmarcarunt").val());
+            //     // console.log("idlinea: ", $("#idlinea").val());
+            //     // console.log("idlinearunt: ", $("#idlinearunt").val());
+            //     // console.log("migrateLineaMarca: ", $("#migrateLineaMarca").val());
+            //     if ($('#fecha_vencimiento_soat').val() !== "" &&
+            //         $("#idmarca").val() !== "" &&
+            //         // $("#idmarcarunt").val() !== "" &&
+            //         $("#idlinea").val() !== "") {
+            //         // console.log("guardarVehiculo")
+            //         var placa = $('#numero_placa').val().trim();
+            //         localStorage.setItem('placa', placa);
+            //         var veh = new Object();
+            //         veh.numero_placa = $('#numero_placa').val().trim();
+            //         veh.idclase = $('#idclase').val();
+            //         veh.idlinea = $('#idlinearunt').val();
+            //         veh.idservicio = $('#idservicio').val();
+            //         veh.idtipocombustible = $('#idcombustible').val();
+            //         veh.idcolor = $('#idcolorrunt').val();
+            //         veh.numero_serie = $('#numero_serie').val();
+            //         veh.ano_modelo = $('#ano_modelo').val();
+            //         veh.numero_motor = $('#numero_motor').val();
+            //         veh.numero_vin = $('#numero_vin').val();
+            //         veh.potencia_motor = $('#potencia_motor').val();
+            //         veh.cilindraje = $('#cilindraje').val();
+            //         veh.numero_tarjeta_propiedad = $('#numero_tarjeta_propiedad').val();
+            //         veh.kilometraje = $('#kilometraje').val();
+            //         veh.nombre_empresa = $('#nombre_empresa').val();
+            //         veh.tipo_vehiculo = $('#tipo_vehiculo').val();
+            //         //                                                if (veh.tipo_vehiculo == "3") {
+            //         //                                                    veh.diseno = 0;
+            //         //                                                } else {
+            //         //                                                    veh.diseno = $('#idcarroceriarunt').val();
+            //         //                                                }
+            //         veh.diseno = $('#idcarroceriarunt').val();
+            //         veh.fecha_matricula = $('#fecha_matricula').val();
+            //         veh.numejes = $('#numejes').val();
+            //         veh.numero_llantas = $('#numero_llantas').val();
+            //         veh.tiempos = $('#tiempos').val();
+            //         veh.numsillas = $('#numsillas').val();
+            //         veh.num_pasajeros = $('#num_pasajeros').val();
+            //         veh.cilindros = $('#cilindros').val();
+            //         veh.ensenanza = $('#ensenanza').val();
+            //         veh.taximetro = $('#taximetro').val();
+            //         veh.idpais = $('#idpais').val();
+            //         veh.numero_exostos = $('#numero_exostos').val();
+            //         veh.scooter = $('#scooter').val();
+            //         veh.blindaje = $('#blindaje').val();
+            //         veh.polarizado = $('#polarizado').val();
+            //         veh.fecha_vencimiento_soat = $('#fecha_vencimiento_soat').val();
+            //         veh.chk_3 = $('#chk_3').val();
+            //         veh.fecha_final_certgas = $('#fecha_final_certgas').val();
+            //         veh.idcliente = $('#idcliente').val();
+            //         veh.idpropietarios = $('#idpropietario').val();
+            //         veh.idsoat = 1;
+            //         veh.diametro_escape = 0;
+            //         veh.registrorunt = 1;
+
+            //         var data = {
+            //             vehiculo: veh,
+            //             sipropietario: siPropietario
+            //         };
+            //         document.getElementById("msjguardar").style.color = 'green';
+            //         document.getElementById("msjguardar").style.display = 'block';
+            //         document.getElementById("msjguardar").style.position = 'relative';
+            //         $("#msjguardar").text('Por favor espere, guardando informacion.');
+
+            //         $.ajax({
+            //             url: '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/getNewLineas',
+            //             type: 'post',
+            //             async: false,
+            //             mimeType: "application/json",
+            //             data: {
+            //                 idlinea: veh.idlinea
+            //             },
+            //             success: function(rta) {
+            //                 // console.log(rta)
+            //                 // console.log("lineas", rta.lineas);
+            //                 // console.log("marcas", rta.marcas);
+            //                 if (!rta.lineas || !rta.marcas) {
+            //                     if (arrayInfoLineasMarcas.length === 0) {
+            //                         Toast.fire({
+            //                             icon: "info",
+            //                             title: "Por favor actualice los datos de línea y marca antes de continuar.",
+            //                             timer: 5000
+            //                         });
+            //                         document.getElementById("msjguardar").style.display = 'none';
+            //                         document.getElementById("msjguardar").style.position = 'absolute';
+            //                         $("#msjguardar").text('');
+            //                         return;
+            //                     } else {
+            //                         var dataLineaMarca = arrayInfoLineasMarcas[0].split("_");
+
+            //                         $.ajax({
+            //                             url: '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/insertNewLineasMarcas',
+            //                             type: 'post',
+            //                             async: false,
+            //                             mimeType: "application/json",
+            //                             data: {
+            //                                 lineas: rta.lineas,
+            //                                 marcas: rta.marcas,
+            //                                 idlineas: dataLineaMarca[0],
+            //                                 nombre: dataLineaMarca[1],
+            //                                 codigo_ws: dataLineaMarca[2],
+            //                                 idmarcas: dataLineaMarca[3],
+            //                                 nombreMarca: dataLineaMarca[4]
+            //                             },
+            //                             success: function(rta) {
+            //                                 console.log(rta)
+
+            //                                 $.ajax({
+            //                                     url: '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/guardarVehiculo',
+            //                                     type: 'post',
+            //                                     data: data,
+            //                                     success: function(rta) {
+
+            //                                         console.log("rta", rta);
+            //                                         document.getElementById("msjguardar").style.display = 'none';
+            //                                         document.getElementById("msjguardar").style.position = 'absolute';
+            //                                         $("#msjguardar").text('');
+
+            //                                         Swal.fire({
+            //                                             position: 'center',
+            //                                             icon: 'success',
+            //                                             title: 'Guardado exitosamente.',
+            //                                             //                                                            html: 'Fecha vencimiento del SOAT.',
+            //                                             showConfirmButton: true,
+            //                                             timer: 5000
+            //                                         })
+            //                                         //                                                        $("#msjguardar").text('Guardado exitosamente');
+            //                                     },
+            //                                     error: function(jqXHR, textStatus, errorThrown) {
+            //                                         Swal.fire({
+            //                                             position: 'center',
+            //                                             icon: 'error',
+            //                                             title: 'Error al guardar.',
+            //                                             html: 'Por favor intente nuevamente. <br> ' + jqXHR.responseText,
+            //                                             showConfirmButton: true,
+            //                                         });
+            //                                     }
+
+            //                                 });
+
+            //                             },
+            //                             error: function(jqXHR, textStatus, errorThrown) {
+            //                                 document.getElementById("msjguardar").style.display = 'none';
+            //                                 document.getElementById("msjguardar").style.position = 'absolute';
+            //                                 $("#msjguardar").text('');
+            //                                 Swal.fire({
+            //                                     position: 'center',
+            //                                     icon: 'error',
+            //                                     title: 'Error al guardar.',
+            //                                     html: 'Por favor intente nuevamente. <br> ' + jqXHR.responseText,
+            //                                     showConfirmButton: true,
+            //                                 });
+            //                             }
+
+            //                         });
+            //                     }
+            //                 } else {
+            //                     $.ajax({
+            //                         url: '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/guardarVehiculo',
+            //                         type: 'post',
+            //                         data: data,
+            //                         success: function(rta) {
+
+            //                             console.log("rta", rta);
+            //                             document.getElementById("msjguardar").style.display = 'none';
+            //                             document.getElementById("msjguardar").style.position = 'absolute';
+            //                             $("#msjguardar").text('');
+
+            //                             Swal.fire({
+            //                                 position: 'center',
+            //                                 icon: 'success',
+            //                                 title: 'Guardado exitosamente.',
+            //                                 //                                                            html: 'Fecha vencimiento del SOAT.',
+            //                                 showConfirmButton: true,
+            //                                 timer: 5000
+            //                             })
+            //                             //                                                        $("#msjguardar").text('Guardado exitosamente');
+            //                         },
+            //                         error: function(jqXHR, textStatus, errorThrown) {
+            //                             Swal.fire({
+            //                                 position: 'center',
+            //                                 icon: 'error',
+            //                                 title: 'Error al guardar.',
+            //                                 html: 'Por favor intente nuevamente. <br> ' + jqXHR.responseText,
+            //                                 showConfirmButton: true,
+            //                             });
+            //                         }
+
+            //                     });
+            //                 }
+            //             },
+            //             error: function(jqXHR, textStatus, errorThrown) {
+            //                 document.getElementById("msjguardar").style.display = 'none';
+            //                 document.getElementById("msjguardar").style.position = 'absolute';
+            //                 $("#msjguardar").text('');
+            //                 Swal.fire({
+            //                     position: 'center',
+            //                     icon: 'error',
+            //                     title: 'Error al guardar.',
+            //                     html: 'Por favor intente nuevamente. <br> ' + jqXHR.responseText,
+            //                     showConfirmButton: true,
+            //                 });
+            //             }
+
+            //         });
+
+            //         // 
+            //     } else {
+            //         let missingFields = [];
+
+            //         if ($('#fecha_vencimiento_soat').val() === "") {
+            //             missingFields.push('Fecha vencimiento del SOAT');
+            //         }
+            //         if ($("#idmarca").val() === "") {
+            //             missingFields.push('Marca');
+            //         }
+            //         if ($("#idmarcarunt").val() === "") {
+            //             missingFields.push('Código de Marca');
+            //         }
+            //         if ($("#idlinea").val() === "") {
+            //             missingFields.push('Línea');
+            //         }
+            //         if ($("#idlinearunt").val() === "") {
+            //             missingFields.push('Código de Línea');
+            //         }
+
+            //         if (missingFields.length > 0) {
+            //             Swal.fire({
+            //                 position: 'center',
+            //                 icon: 'error',
+            //                 title: 'Campos obligatorios.',
+            //                 html: 'Por favor complete los siguientes campos: ' + missingFields.join(', '),
+            //                 showConfirmButton: true,
+            //             });
+            //         }
+
+            //     }
+            // };
+            var cambiarTV = function(e) {
+                if (e.value === '3') {
+                    $("#labelScooter").text('Scooter');
+                } else {
+                    $("#labelScooter").text('Convertidor Catalitico');
+                }
+            };
+            var nuevo = function(e) {
+
+                $.ajax({
+                    url: '<?php echo base_url(); ?>index.php/oficina/vehiculo/Cvehiculo/nuevo',
+                    type: 'post',
+                    async: false,
+                    success: function() {
+                        //location.href = '../Cvehiculo';
+                        location.reload();
+                    }
+                });
+            };
+        </script>
+        <!-- General section box modal start -->
+        <div class="modal" id="modalPlaca" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog animated bounceInDown">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Ingrese la placa</h4>
+                    </div>
+                    <div class="modal-body" style="text-align: center">
+                        <input name="numero_placa"
+                            id="num_placa"
+                            style="
+                       width: 100px;height: 50px;border: solid black;
+                       border-radius: 10px 10px 10px 10px;text-align: center;
+                       background: gold;font-size: 20px;font-weight: bold;
+                       text-transform: uppercase" type="text">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-success" type="button">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal end -->
+</body>
+<!--</form>-->
+
+</html>
