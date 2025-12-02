@@ -108,9 +108,21 @@ class Mambientales extends CI_Model
                         DATE_FORMAT(p.fechainicial, '%Y/%m/%d %H:%i') 'Fecha inicio',
                         v.numero_placa AS Placa,
                         cl.cod_ciudad AS 'Codigo ciudad',
-                        IF(v.registroRunt=1,
-                        (SELECT m.nombre FROM linearunt l,marcarunt m WHERE l.idmarcarunt=m.idmarcarunt AND l.idlinearunt=v.idlinea),
-                        (SELECT m.nombre FROM linea l,marca m WHERE l.idmarca=m.idmarca AND l.idlinea=v.idlinea)) Marca,
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
                         c.nombre AS 'Tipo vehiculo',
                         s.nombre AS Servicio,
                         v.cilindraje AS Cilindraje,
@@ -156,9 +168,21 @@ class Mambientales extends CI_Model
                         v.numero_placa AS Placa,
                         v.ano_modelo AS Modelo,
                         s.nombre AS Servicio,
-                        IF(v.registroRunt=1,
-                        (SELECT m.nombre FROM linearunt l,marcarunt m WHERE l.idmarcarunt=m.idmarcarunt AND l.idlinearunt=v.idlinea),
-                        (SELECT m.nombre FROM linea l,marca m WHERE l.idmarca=m.idmarca AND l.idlinea=v.idlinea)) Marca,
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
                         c.nombre AS Clase,
                         v.tiempos AS 'Motor',
                         v.cilindraje AS Cilindraje,
@@ -197,12 +221,30 @@ class Mambientales extends CI_Model
                         v.numero_placa AS Placa,
                         v.ano_modelo AS Modelo,
                         s.nombre AS Servicio,
-                        IF(v.registroRunt=1,
-                        (SELECT m.nombre FROM linearunt l,marcarunt m WHERE l.idmarcarunt=m.idmarcarunt AND l.idlinearunt=v.idlinea),
-                        (SELECT m.nombre FROM linea l,marca m WHERE l.idmarca=m.idmarca AND l.idlinea=v.idlinea)) Marca,
-                        if(v.registroRunt=1,
-                        (select l.nombre from linearunt l where l.idlinearunt=v.idlinea),
-                        (select l.nombre from linea l where l.idlinea=v.idlinea)) AS 'Linea',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                         c.nombre AS Clase,
                         v.cilindraje AS Cilindraje,
                         v.kilometraje AS Kilometraje,
@@ -244,12 +286,30 @@ class Mambientales extends CI_Model
                         v.numero_placa AS Placa,
                         v.ano_modelo AS Modelo,
                         s.nombre AS Servicio,
-                        IF(v.registroRunt=1,
-                        (SELECT m.nombre FROM linearunt l,marcarunt m WHERE l.idmarcarunt=m.idmarcarunt AND l.idlinearunt=v.idlinea),
-                        (SELECT m.nombre FROM linea l,marca m WHERE l.idmarca=m.idmarca AND l.idlinea=v.idlinea)) Marca,
-                        if(v.registroRunt=1,
-                        (select l.nombre from linearunt l where l.idlinearunt=v.idlinea),
-                        (select l.nombre from linea l where l.idlinea=v.idlinea)) AS 'Linea',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca', 
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                         t.nombre AS Combustible,
                         c.nombre AS Clase,
                         v.cilindraje AS Cilindraje,
@@ -682,14 +742,32 @@ class Mambientales extends CI_Model
                         IFNULL((SELECT cl.telefono1 FROM clientes cl WHERE v.idcliente = cl.idcliente LIMIT 1),'---') AS 'Telefono',
                         IFNULL((SELECT cl.cod_ciudad FROM clientes cl WHERE v.idcliente = cl.idcliente LIMIT 1),'---') AS 'Ciudad Cliente',
                         v.numero_placa AS 'Placa',
-                        if(v.registroRunt=1,
-                        (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                        (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca', 
                         v.ano_modelo AS 'Ano modelo',
                         v.cilindraje AS 'Cilindraje',
-                        if(v.registroRunt=1,
-                        (select l.nombre from linearunt l where l.idlinearunt=v.idlinea),
-                        (select l.nombre from linea l where l.idlinea=v.idlinea)) AS 'Linea',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                         if(v.scooter=1,'2','1') AS 'Diseno',
                         v.idclase AS 'Clase',
                         CASE
@@ -1009,14 +1087,32 @@ EOF;
                         IFNULL((SELECT cl.cod_ciudad FROM clientes cl WHERE v.idcliente = cl.idcliente LIMIT 1),'---') AS 'Ciudad Cliente',
 
                         v.numero_placa AS 'Placa',
-                        if(v.registroRunt=1,
-                        (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                        (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+                    CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
                         v.ano_modelo AS 'Ano modelo',
                         v.cilindraje AS 'Cilindraje',
-                        if(v.registroRunt=1,
-                        (select l.nombre from linearunt l where l.idlinearunt=v.idlinea),
-                        (select l.nombre from linea l where l.idlinea=v.idlinea)) AS 'Linea',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                         v.idclase AS 'Clase',
                         CASE
                             WHEN v.idservicio = 1 THEN '4'
@@ -1332,14 +1428,32 @@ EOF;
                         IFNULL((SELECT cl.telefono1 FROM clientes cl WHERE v.idcliente = cl.idcliente LIMIT 1),'---') AS 'Telefono',
                         IFNULL((SELECT cl.cod_ciudad FROM clientes cl WHERE v.idcliente = cl.idcliente LIMIT 1),'---') AS 'Ciudad Cliente',
                         v.numero_placa AS 'Placa',
-                        if(v.registroRunt=1,
-                        (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                        (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
                         v.ano_modelo AS 'Ano modelo',
                         v.cilindraje AS 'Cilindraje',
-                        if(v.registroRunt=1,
-                        (select l.nombre from linearunt l where l.idlinearunt=v.idlinea),
-                        (select l.nombre from linea l where l.idlinea=v.idlinea)) AS 'Linea',
+                       CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                         v.idclase AS 'Clase',
                         CASE
                             WHEN v.idservicio = 1 THEN '4'
@@ -1727,14 +1841,32 @@ EOF;
                             DATE_FORMAT(p.fechainicial, '%Y/%m/%d %H:%i:%s'),
                             '') AS 'Fecha Aborto AAAA/MM/DD Hora Aborto HH:MM:SS',
                             v.numero_placa AS 'Placa',
-                        if(v.registroRunt=1,
-                              (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                              (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
                         v.ano_modelo AS 'Año modelo',
                         v.cilindraje AS 'Cilindraje en cm3',
-                        IF(v.registroRunt=1,
-                              (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                              (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                         IFNULL((SELECT cl.nombre FROM clase cl WHERE v.idclase = cl.idclase LIMIT 1),'') AS 'Clase',
                         IFNULL((SELECT s.nombre FROM servicio s WHERE v.idservicio = s.idservicio LIMIT 1),'') AS 'Servicio',
                         IFNULL((SELECT ti.nombre FROM tipo_combustible ti WHERE v.idtipocombustible = ti.idtipocombustible LIMIT 1),'') AS 'Combustible',
@@ -1881,14 +2013,32 @@ if(p.estado = 5,
     DATE_FORMAT(p.fechainicial, '%Y/%m/%d %H:%i:%s'),
     '') AS 'Fecha Aborto AAAA/MM/DD Hora Aborto HH:MM:SS',
     v.numero_placa AS 'Placa',
-if(v.registroRunt=1,
-      (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-      (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
 v.ano_modelo AS 'Año modelo',
 v.cilindraje AS 'Cilindraje en cm3',
-IF(v.registroRunt=1,
-      (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-      (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
+CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
 IFNULL((SELECT cl.nombre FROM clase cl WHERE v.idclase = cl.idclase LIMIT 1),'') AS 'Clase',
 IFNULL((SELECT s.nombre FROM servicio s WHERE v.idservicio = s.idservicio LIMIT 1),'') AS 'Servicio',
 IFNULL((SELECT ti.nombre FROM tipo_combustible ti WHERE v.idtipocombustible = ti.idtipocombustible LIMIT 1),'') AS 'Combustible',
@@ -1975,14 +2125,32 @@ if(p.estado = 5,
     DATE_FORMAT(p.fechainicial, '%Y/%m/%d %H:%i:%s'),
     '') AS 'Fecha Aborto AAAA/MM/DD Hora Aborto HH:MM:SS',
     v.numero_placa AS 'Placa',
-if(v.registroRunt=1,
-      (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-      (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
 v.ano_modelo AS 'Año modelo',
 v.cilindraje AS 'Cilindraje en cm3',
-IF(v.registroRunt=1,
-      (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-      (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
+CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
 IFNULL((SELECT cl.nombre FROM clase cl WHERE v.idclase = cl.idclase LIMIT 1),'') AS 'Clase',
 IFNULL((SELECT s.nombre FROM servicio s WHERE v.idservicio = s.idservicio LIMIT 1),'') AS 'Servicio',
 IFNULL((SELECT ti.nombre FROM tipo_combustible ti WHERE v.idtipocombustible = ti.idtipocombustible LIMIT 1),'') AS 'Combustible',
@@ -2149,14 +2317,32 @@ if(p.estado = 2, 'Aprobado',if(p.estado = 5, 'Abortado', 'Rechazada')) AS 'Conce
                         cl.telefono1 AS 'Telefono',
                         cl.cod_ciudad AS 'Ciudad Cliente',
                         v.numero_placa AS 'Placa',
-                        if(v.registroRunt=1,
-                        (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                        (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
                         v.ano_modelo AS 'Ano modelo',
                         v.cilindraje AS 'Cilindraje',
-                        if(v.registroRunt=1,
-                        (select l.nombre from linearunt l where l.idlinearunt=v.idlinea),
-                        (select l.nombre from linea l where l.idlinea=v.idlinea)) AS 'Linea',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                         if(v.scooter=1,'2','1') AS 'Diseno',
                         v.idclase AS 'Clase',
                         CASE
@@ -2352,14 +2538,32 @@ EOF;
                         cl.telefono1 AS 'Telefono',
                         cl.cod_ciudad AS 'Ciudad Cliente',
                         v.numero_placa AS 'Placa',
-                        if(v.registroRunt=1,
-                        (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                        (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+                         CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca', 
                         v.ano_modelo AS 'Ano modelo',
                         v.cilindraje AS 'Cilindraje',
-                        if(v.registroRunt=1,
-                        (select l.nombre from linearunt l where l.idlinearunt=v.idlinea),
-                        (select l.nombre from linea l where l.idlinea=v.idlinea)) AS 'Linea',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                         v.idclase AS 'Clase',
                         CASE
                             WHEN v.idservicio = 1 THEN '4'
@@ -2530,14 +2734,32 @@ EOF;
                         cl.telefono1 AS 'Telefono',
                         cl.cod_ciudad AS 'Ciudad Cliente',
                         v.numero_placa AS 'Placa',
-                        if(v.registroRunt=1,
-                        (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                        (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+                         CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca', 
                         v.ano_modelo AS 'Ano modelo',
                         v.cilindraje AS 'Cilindraje',
-                        if(v.registroRunt=1,
-                        (select l.nombre from linearunt l where l.idlinearunt=v.idlinea),
-                        (select l.nombre from linea l where l.idlinea=v.idlinea)) AS 'Linea',
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                         v.idclase AS 'Clase',
                         CASE
                             WHEN v.idservicio = 1 THEN '4'
@@ -2685,9 +2907,21 @@ EOF;
         $query = $this->db->query("SELECT                  
                         DATE_FORMAT(p.fechainicial, '%Y/%m/%d %H:%i') 'Fecha inicio',
                         v.numero_placa AS Placa,
-                        IF(v.registroRunt=1,
-                        (SELECT m.nombre FROM linearunt l,marcarunt m WHERE l.idmarcarunt=m.idmarcarunt AND l.idlinearunt=v.idlinea),
-                        (SELECT m.nombre FROM linea l,marca m WHERE l.idmarca=m.idmarca AND l.idlinea=v.idlinea)) Marca,
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca', 
                         s.nombre AS Servicio,
                         v.cilindraje AS Cilindraje,
                         v.tiempos AS Tiempos,
@@ -2724,9 +2958,21 @@ EOF;
         $query = $this->db->query("SELECT                  
                         DATE_FORMAT(p.fechainicial, '%Y/%m/%d %H:%i') 'Fecha inicio',
                         v.numero_placa AS Placa,
-                        IF(v.registroRunt=1,
-                        (SELECT m.nombre FROM linearunt l,marcarunt m WHERE l.idmarcarunt=m.idmarcarunt AND l.idlinearunt=v.idlinea),
-                        (SELECT m.nombre FROM linea l,marca m WHERE l.idmarca=m.idmarca AND l.idlinea=v.idlinea)) Marca,
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca', 
                         s.nombre AS Servicio,
                         v.cilindraje AS Cilindraje,
                         v.tiempos AS Tiempos,
@@ -2765,9 +3011,21 @@ EOF;
         $query = $this->db->query("SELECT                  
                         DATE_FORMAT(p.fechainicial, '%Y/%m/%d %H:%i') 'Fecha inicio',
                         v.numero_placa AS Placa,
-                        IF(v.registroRunt=1,
-                        (SELECT m.nombre FROM linearunt l,marcarunt m WHERE l.idmarcarunt=m.idmarcarunt AND l.idlinearunt=v.idlinea),
-                        (SELECT m.nombre FROM linea l,marca m WHERE l.idmarca=m.idmarca AND l.idlinea=v.idlinea)) Marca,
+                        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca', 
                         s.nombre AS Servicio,
                         v.cilindraje AS Cilindraje,
                         v.tiempos AS Tiempos,
@@ -5382,12 +5640,31 @@ EOF;
                 '' AS 'expedienteCornare',
                 p.idprueba AS 'numeroConsecutivoPrueba',
                 IFNULL((SELECT ct.numero_certificado FROM certificados ct WHERE ct.idhojapruebas = h.idhojapruebas AND ct.estado = 1 ORDER BY 1 DESC LIMIT 1),0) AS 'numeroCertificado', 
-                IF(v.registroRunt=1,
-                      (SELECT m.nombre FROM  linearunt l,marcarunt m WHERE l.idmarcarunt=m.idmarcarunt AND l.idlinearunt=v.idlinea),
-                      (SELECT m.nombre FROM linea l,marca m WHERE l.idmarca=m.idmarca AND l.idlinea=v.idlinea)) 'marca',
-                      IF(v.registroRunt=1,
-                                   (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                                   (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
+                CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'marca', 
+
+CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                 v.ano_modelo AS 'annoModelo',
                 v.numero_placa AS 'placa',
                 v.cilindraje AS 'cilindraje',
@@ -5491,12 +5768,31 @@ EOF;
                 '' AS 'expedienteCornare',
                 p.idprueba AS 'numeroConsecutivoPrueba',
                 IFNULL((SELECT ct.numero_certificado FROM certificados ct WHERE ct.idhojapruebas = h.idhojapruebas AND ct.estado = 1 ORDER BY 1 DESC LIMIT 1),'') AS 'numeroCertificado', 
-                IF(v.registroRunt=1,
-                      (SELECT m.nombre FROM  linearunt l,marcarunt m WHERE l.idmarcarunt=m.idmarcarunt AND l.idlinearunt=v.idlinea),
-                      (SELECT m.nombre FROM linea l,marca m WHERE l.idmarca=m.idmarca AND l.idlinea=v.idlinea)) 'marca',
-                      IF(v.registroRunt=1,
-                                   (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                                   (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
+                 CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'marca', 
+
+CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                 v.ano_modelo AS 'annoModelo',
                 v.numero_placa AS 'placa',
                 v.cilindraje AS 'cilindraje',
@@ -5612,12 +5908,31 @@ EOF;
                     '' AS 'expedienteCornare',
                     p.idprueba AS 'consecutivoPrueba',
                     IFNULL((SELECT ct.numero_certificado FROM certificados ct WHERE ct.idhojapruebas = h.idhojapruebas AND ct.estado = 1 ORDER BY 1 DESC LIMIT 1),'') AS 'numeroCertificado', 
-                    IF(v.registroRunt=1,
-                          (SELECT m.nombre FROM  linearunt l,marcarunt m WHERE l.idmarcarunt=m.idmarcarunt AND l.idlinearunt=v.idlinea),
-                          (SELECT m.nombre FROM linea l,marca m WHERE l.idmarca=m.idmarca AND l.idlinea=v.idlinea)) 'marca',
-                    IF(v.registroRunt=1,
-                                   (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                                   (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
+                     CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'marca', 
+
+CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                     v.ano_modelo AS 'annoModelo',
                     v.numero_placa AS 'placa',
                     v.cilindraje AS 'cilindraje',
@@ -5813,9 +6128,21 @@ EOF;
         '' AS 'Version_software_operacion',
         IFNULL((SELECT u.identificacion FROM usuarios u WHERE p.idusuario = u.IdUsuario LIMIT 1),'') AS 'ID Inspector',
         v.numero_placa AS 'Placa',
-        if(v.registroRunt=1,
-              (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-              (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
         v.ano_modelo AS 'Año modelo',
         v.cilindraje AS 'Cilindraje',
         IF(v.registroRunt=1,
@@ -6139,14 +6466,32 @@ EOF;
                     IFNULL((SELECT CONCAT(u.nombres, ' ', u.apellidos) FROM usuarios u WHERE p.idusuario = u.IdUsuario LIMIT 1),'') AS 'Nombre Inspector que realiza la Prueba',
                     IFNULL((SELECT u.identificacion FROM usuarios u WHERE p.idusuario = u.IdUsuario LIMIT 1),'') AS 'ID Inspector',
                     v.numero_placa AS 'Placa',
-                    if(v.registroRunt=1,
-                        (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                        (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+                     CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
                     v.ano_modelo AS 'Año modelo',
                     v.cilindraje AS 'Cilindraje',
-                    IF(v.registroRunt=1,
-                        (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                        (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
+                    CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                     IFNULL((SELECT cl.nombre FROM clase cl WHERE v.idclase = cl.idclase LIMIT 1),'') AS 'Clase',
                     IFNULL((SELECT s.nombre FROM servicio s WHERE v.idservicio = s.idservicio LIMIT 1),'') AS 'Servicio',
                     IFNULL((SELECT tc.nombre FROM tipo_combustible tc WHERE v.idtipocombustible = tc.idtipocombustible LIMIT 1),'') AS 'Tipo de combustible',
@@ -6424,14 +6769,32 @@ EOF;
                     IFNULL((SELECT CONCAT(u.nombres, ' ', u.apellidos) FROM usuarios u WHERE p.idusuario = u.IdUsuario LIMIT 1),'') AS 'Nombre Inspector que realiza la Prueba',
                     IFNULL((SELECT u.identificacion FROM usuarios u WHERE p.idusuario = u.IdUsuario LIMIT 1),'') AS 'ID Inspector',
                     v.numero_placa AS 'Placa',
-                    if(v.registroRunt=1,
-                        (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                        (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+                    CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
                     v.ano_modelo AS 'Año modelo',
                     v.cilindraje AS 'Cilindraje',
-                    IF(v.registroRunt=1,
-                        (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                        (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
+                    CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                     IFNULL((SELECT cl.nombre FROM clase cl WHERE v.idclase = cl.idclase LIMIT 1),'') AS 'Clase',
                     IFNULL((SELECT s.nombre FROM servicio s WHERE v.idservicio = s.idservicio LIMIT 1),'') AS 'Servicio',
                     'Diesel' AS 'Tipo de motor',
@@ -6836,12 +7199,30 @@ EOF;
         (select valor from resultados where idprueba=p.idprueba and (tiporesultado='temperatura_ambiente' or tiporesultado='temp_ambiente' or idconfig_prueba =200) order by 1 desc limit 1) AS 'Temperatura ambiente °C',
         (select valor from resultados where idprueba=p.idprueba and tiporesultado='humedad'  order by 1 desc limit 1) AS 'Humedad Relativa %',
         v.numero_placa AS 'Placa',
-        IF(v.registroRunt=1,
-                                      (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                                      (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
-        if(v.registroRunt=1,
-                                      (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                                      (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
+        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
         v.ano_modelo AS 'Año modelo',
         v.cilindraje AS 'Cilindraje en cm3',
         IFNULL((SELECT cl.nombre FROM clase cl WHERE v.idclase = cl.idclase LIMIT 1),'') AS 'Clase',
@@ -6917,12 +7298,30 @@ EOF;
         (select valor from resultados where idprueba=p.idprueba and (tiporesultado='temperatura_ambiente' or tiporesultado='temp_ambiente' or idconfig_prueba =200) order by 1 desc limit 1) AS 'Temperatura ambiente °C',
         (select valor from resultados where idprueba=p.idprueba and tiporesultado='humedad'  order by 1 desc limit 1) AS 'Humedad Relativa %',
         v.numero_placa AS 'Placa',
-        IF(v.registroRunt=1,
-                                      (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                                      (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
-        if(v.registroRunt=1,
-                                      (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                                      (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
+        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca', 
         v.ano_modelo AS 'Año modelo',
         v.cilindraje AS 'Cilindraje en cm3',
         IFNULL((SELECT cl.nombre FROM clase cl WHERE v.idclase = cl.idclase LIMIT 1),'') AS 'Clase',
@@ -6985,12 +7384,30 @@ EOF;
         (select valor from resultados where idprueba=p.idprueba and (tiporesultado='temperatura_ambiente' or tiporesultado='temp_ambiente' or idconfig_prueba =200) order by 1 desc limit 1) AS 'Temperatura ambiente °C',
         (select valor from resultados where idprueba=p.idprueba and tiporesultado='humedad'  order by 1 desc limit 1) AS 'Humedad Relativa %',
         v.numero_placa AS 'Placa',
-        IF(v.registroRunt=1,
-                                      (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                                      (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
-        if(v.registroRunt=1,
-                                      (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                                      (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
+        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
+        CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca', 
         v.ano_modelo AS 'Año modelo',
         v.cilindraje AS 'Cilindraje en cm3',
         IFNULL((SELECT cl.nombre FROM clase cl WHERE v.idclase = cl.idclase LIMIT 1),'') AS 'Clase',
@@ -7090,12 +7507,30 @@ EOF;
                     v.cilindraje AS 'Cilindraje',
                     v.numero_tarjeta_propiedad AS 'Lic_trans',
                     v.kilometraje AS 'km',
-                    if(v.registroRunt=1,
-                    (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                    (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
-                    IF(v.registroRunt=1,
-                    (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                    (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
+                     CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
+                    CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                     IFNULL((SELECT cl.nombre FROM clase cl WHERE v.idclase = cl.idclase LIMIT 1),'') AS 'Clase',
                     IFNULL((SELECT s.nombre FROM servicio s WHERE v.idservicio = s.idservicio LIMIT 1),'') AS 'Servicio',
                     IFNULL((SELECT ti.nombre FROM tipo_combustible ti WHERE v.idtipocombustible = ti.idtipocombustible LIMIT 1),'') AS 'tip_comb',
@@ -7193,12 +7628,30 @@ EOF;
                     v.cilindraje AS 'Cilindraje',
                     v.numero_tarjeta_propiedad AS 'Lic_trans',
                     v.kilometraje AS 'km',
-                    if(v.registroRunt=1,
-                    (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                    (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
-                    IF(v.registroRunt=1,
-                    (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                    (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
+                     CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
+                    CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                     IFNULL((SELECT cl.nombre FROM clase cl WHERE v.idclase = cl.idclase LIMIT 1),'') AS 'Clase',
                     IFNULL((SELECT s.nombre FROM servicio s WHERE v.idservicio = s.idservicio LIMIT 1),'') AS 'Servicio',
                     IFNULL((SELECT ti.nombre FROM tipo_combustible ti WHERE v.idtipocombustible = ti.idtipocombustible LIMIT 1),'') AS 'tip_comb',
@@ -7295,12 +7748,30 @@ EOF;
                     v.cilindraje AS 'Cilindraje',
                     v.numero_tarjeta_propiedad AS 'Lic_trans',
                     v.kilometraje AS 'km',
-                    if(v.registroRunt=1,
-                    (select m.nombre from linearunt l,marcarunt m where l.idmarcarunt=m.idmarcarunt and l.idlinearunt=v.idlinea),
-                    (select m.nombre from linea l,marca m where l.idmarca=m.idmarca and l.idlinea=v.idlinea)) AS 'Marca',
-                    IF(v.registroRunt=1,
-                    (SELECT l.nombre FROM  linearunt l WHERE l.idlinearunt=v.idlinea),
-                    (SELECT l.nombre FROM linea l WHERE l.idlinea=v.idlinea)) 'Linea',
+                    CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(m.nombre) FROM marca m 
+                                               WHERE m.idmarca = (SELECT l.idmarca FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA'),
+                                        IFNULL((SELECT upper(mr.nombre) FROM marcarunt mr 
+                                               WHERE mr.idmarcarunt = (SELECT lr.idmarcarunt FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1) 
+                                               LIMIT 1), 'SIN MARCA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nm.nombre) FROM newmarcas nm 
+                                           WHERE nm.idmarcas = (SELECT nl.idmarcas FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1) 
+                                           LIMIT 1), 'SIN MARCA')
+                            END AS 'Marca',
+                    CASE 
+                                WHEN v.migrateLineaMarca <> 1 THEN
+                                    IF(v.registrorunt = '0',
+                                        IFNULL((SELECT upper(l.nombre) FROM linea l WHERE l.idlinea = v.idlinea LIMIT 1), 'SIN LINEA'),
+                                        IFNULL((SELECT upper(lr.nombre) FROM linearunt lr WHERE lr.idlinearunt = v.idlinea LIMIT 1), 'SIN LINEA')
+                                    )
+                                ELSE 
+                                    IFNULL((SELECT upper(nl.nombre) FROM newlineas nl WHERE nl.idlineas = v.idlinea LIMIT 1), 'SIN LINEA')
+                            END AS 'Linea',
                     IFNULL((SELECT cl.nombre FROM clase cl WHERE v.idclase = cl.idclase LIMIT 1),'') AS 'Clase',
                     IFNULL((SELECT s.nombre FROM servicio s WHERE v.idservicio = s.idservicio LIMIT 1),'') AS 'Servicio',
                     IFNULL((SELECT ti.nombre FROM tipo_combustible ti WHERE v.idtipocombustible = ti.idtipocombustible LIMIT 1),'') AS 'tip_comb',
